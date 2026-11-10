@@ -1,0 +1,321 @@
+{
+  "version": "stage5_bc_v2_2026-10-26",
+  "lock": "PASS LOCK 三系logo／手繪簡單風 2026-10-26 Asia/Hong_Kong — supersedes stage5_sar_v1; pending approval before program wire",
+  "style": {
+    "cards": "hand-drawn simple style — thick black hand-drawn frame, flat cyan+pinstripe, brown/ochre UI, 漢字＋拼音＋意思＋LOCKED 拼音系 badge; NOT TCG SAR / gold holo",
+    "units": "JP-04B＋MN-03 stag-beetle warrior; hands raise LARGE pinyin board; rembg RGBA — REUSED from stage5_sar_v1 (TD bugs, not third-party franchise art)",
+    "logo": "logo/logo_拼音系.png (+ 成語系／詞語系 copies) from series_logos_bc_simple_LOCKED_2026-10-26",
+    "forbidden": "no third-party franchise trademarks / TCG SAR full-bleed / gold holo etched frame / energy icons / cute creature-like critters"
+  },
+  "counts": {
+    "cards": 16,
+    "units": 16,
+    "logo": 3
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": "展翅",
+      "pinyin": "zhǎn chì",
+      "meaning": "張開翅膀",
+      "options": [
+        "zhǎn chì",
+        "zǎn cì",
+        "zhàn qì",
+        "zhān chī"
+      ],
+      "answer": "zhǎn chì",
+      "card": "cards/01_展翅.jpg",
+      "unit": "units/ally_pinyin_01_展翅.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 2,
+      "word": "發誓",
+      "pinyin": "fā shì",
+      "meaning": "鄭重地說出保證",
+      "options": [
+        "fā shì",
+        "huā sì",
+        "fá shī",
+        "fā sì"
+      ],
+      "answer": "fā shì",
+      "card": "cards/02_發誓.jpg",
+      "unit": "units/ally_pinyin_02_發誓.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 3,
+      "word": "籌劃",
+      "pinyin": "chóu huà",
+      "meaning": "計劃；安排",
+      "options": [
+        "chóu huà",
+        "zóu huà",
+        "chōu huá",
+        "cóu huà"
+      ],
+      "answer": "chóu huà",
+      "card": "cards/03_籌劃.jpg",
+      "unit": "units/ally_pinyin_03_籌劃.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 4,
+      "word": "隨便",
+      "pinyin": "suí biàn",
+      "meaning": "怎麼都可以；不拘束",
+      "options": [
+        "suí biàn",
+        "shuí piàn",
+        "suī biàn",
+        "suí piàn"
+      ],
+      "answer": "suí biàn",
+      "card": "cards/04_隨便.jpg",
+      "unit": "units/ally_pinyin_04_隨便.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 5,
+      "word": "目睹",
+      "pinyin": "mù dǔ",
+      "meaning": "親眼看見",
+      "options": [
+        "mù dǔ",
+        "mù tǔ",
+        "mò dǔ",
+        "nù dǔ"
+      ],
+      "answer": "mù dǔ",
+      "card": "cards/05_目睹.jpg",
+      "unit": "units/ally_pinyin_05_目睹.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 6,
+      "word": "樸實",
+      "pinyin": "pǔ shí",
+      "meaning": "樸素誠實",
+      "options": [
+        "pǔ shí",
+        "bú shí",
+        "pǔ sí",
+        "pù shī"
+      ],
+      "answer": "pǔ shí",
+      "card": "cards/06_樸實.jpg",
+      "unit": "units/ally_pinyin_06_樸實.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 7,
+      "word": "遺址",
+      "pinyin": "yí zhǐ",
+      "meaning": "古代留下的地址／遺跡",
+      "options": [
+        "yí zhǐ",
+        "yí zǐ",
+        "yì zhǐ",
+        "ní zhǐ"
+      ],
+      "answer": "yí zhǐ",
+      "card": "cards/07_遺址.jpg",
+      "unit": "units/ally_pinyin_07_遺址.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 8,
+      "word": "理髮",
+      "pinyin": "lǐ fà",
+      "meaning": "剪頭髮",
+      "options": [
+        "lǐ fà",
+        "nǐ fà",
+        "lǐ huà",
+        "lí fǎ"
+      ],
+      "answer": "lǐ fà",
+      "card": "cards/08_理髮.jpg",
+      "unit": "units/ally_pinyin_08_理髮.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 9,
+      "word": "扮演",
+      "pinyin": "bàn yǎn",
+      "meaning": "裝成某個角色演出",
+      "options": [
+        "bàn yǎn",
+        "pàn yǎn",
+        "bàn yàn",
+        "bǎn yǎn"
+      ],
+      "answer": "bàn yǎn",
+      "card": "cards/09_扮演.jpg",
+      "unit": "units/ally_pinyin_09_扮演.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 10,
+      "word": "象徵",
+      "pinyin": "xiàng zhēng",
+      "meaning": "用具體事物表示抽象意思",
+      "options": [
+        "xiàng zhēng",
+        "jiàng zhēng",
+        "xiàng zēng",
+        "xiǎng zhēng"
+      ],
+      "answer": "xiàng zhēng",
+      "card": "cards/10_象徵.jpg",
+      "unit": "units/ally_pinyin_10_象徵.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 11,
+      "word": "翹首",
+      "pinyin": "qiáo shǒu",
+      "meaning": "抬起頭來望",
+      "options": [
+        "qiáo shǒu",
+        "ciáo shǒu",
+        "qiào shǒu",
+        "qiáo sǒu"
+      ],
+      "answer": "qiáo shǒu",
+      "card": "cards/11_翹首.jpg",
+      "unit": "units/ally_pinyin_11_翹首.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 12,
+      "word": "膽小",
+      "pinyin": "dǎn xiǎo",
+      "meaning": "勇氣不足；害怕",
+      "options": [
+        "dǎn xiǎo",
+        "tǎn xiǎo",
+        "dǎn sǎo",
+        "dàn xiǎo"
+      ],
+      "answer": "dǎn xiǎo",
+      "card": "cards/12_膽小.jpg",
+      "unit": "units/ally_pinyin_12_膽小.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 13,
+      "word": "高聳入雲",
+      "pinyin": "gāo sǒng rù yún",
+      "meaning": "高高地直立，伸進雲裏",
+      "options": [
+        "gāo sǒng rù yún",
+        "gāo sǒng rù yíng",
+        "kāo sǒng rù yún",
+        "gāo zǒng rù yún"
+      ],
+      "answer": "gāo sǒng rù yún",
+      "card": "cards/13_高聳入雲.jpg",
+      "unit": "units/ally_pinyin_13_高聳入雲.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 14,
+      "word": "顧客",
+      "pinyin": "gù kè",
+      "meaning": "來買東西的人",
+      "options": [
+        "gù kè",
+        "gù gè",
+        "kù kè",
+        "gǔ kè"
+      ],
+      "answer": "gù kè",
+      "card": "cards/14_顧客.jpg",
+      "unit": "units/ally_pinyin_14_顧客.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 15,
+      "word": "肅然起敬",
+      "pinyin": "sù rán qǐ jìng",
+      "meaning": "忽然產生敬佩的心情",
+      "options": [
+        "sù rán qǐ jìng",
+        "sù rán qǐ jìn",
+        "shù rán qǐ jìng",
+        "sù lán qǐ jìng"
+      ],
+      "answer": "sù rán qǐ jìng",
+      "card": "cards/15_肅然起敬.jpg",
+      "unit": "units/ally_pinyin_15_肅然起敬.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    },
+    {
+      "id": 16,
+      "word": "優秀",
+      "pinyin": "yōu xiù",
+      "meaning": "非常好",
+      "options": [
+        "yōu xiù",
+        "yōu xiū",
+        "yòu xiù",
+        "yōu qiù"
+      ],
+      "answer": "yōu xiù",
+      "card": "cards/16_優秀.jpg",
+      "unit": "units/ally_pinyin_16_優秀.png",
+      "card_ok": true,
+      "unit_ok": true,
+      "series": "pinyin",
+      "style": "JP-04B+MN-03 hand-drawn simple / 拼音圖鑑"
+    }
+  ]
+}

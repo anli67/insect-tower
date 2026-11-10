@@ -1,0 +1,541 @@
+{
+  "version": "stage2_sentences_v0.1",
+  "gameplay": "enemy_spawn_cloze_pick_write",
+  "rules": {
+    "combat_pool_ids": "1-44",
+    "gacha_ids_excluded_from_combat_pick": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "blank_token": "____",
+    "min_sentences_per_card": 1
+  },
+  "count": 44,
+  "sentences": [
+    {
+      "card_id": 1,
+      "word": "納涼",
+      "sentence": "夏天中午太熱，大家坐在大樹下____。",
+      "answer": "納涼",
+      "hint": "在陰涼處乘涼",
+      "accept": [
+        "納涼",
+        "納凉"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 2,
+      "word": "密密麻麻",
+      "sentence": "書桌上的字____，幾乎看不清是甚麼。",
+      "answer": "密密麻麻",
+      "hint": "又多又密",
+      "accept": [
+        "密密麻麻"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 3,
+      "word": "半明半暗",
+      "sentence": "走廊燈光____，我差點踩到書包。",
+      "answer": "半明半暗",
+      "hint": "光線不亮不暗",
+      "accept": [
+        "半明半暗"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 4,
+      "word": "搖搖欲墜",
+      "sentence": "那座舊橋已經____，行人不敢再走上去。",
+      "answer": "搖搖欲墜",
+      "hint": "快要倒下",
+      "accept": [
+        "搖搖欲墜",
+        "摇摇欲坠"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 5,
+      "word": "模糊",
+      "sentence": "霧氣太大，遠山變得十分____。",
+      "answer": "模糊",
+      "hint": "不清楚",
+      "accept": [
+        "模糊"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 6,
+      "word": "沉睡",
+      "sentence": "弟弟昨夜太累，一躺下就____了。",
+      "answer": "沉睡",
+      "hint": "睡得很熟",
+      "accept": [
+        "沉睡"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 7,
+      "word": "彷彿",
+      "sentence": "遠遠望去，那朵雲____是一隻小兔子。",
+      "answer": "彷彿",
+      "hint": "好像；似乎",
+      "accept": [
+        "彷彿",
+        "仿佛"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 8,
+      "word": "靜寂",
+      "sentence": "深夜的校園一片____，只聽見風聲。",
+      "answer": "靜寂",
+      "hint": "非常安靜",
+      "accept": [
+        "靜寂",
+        "静寂"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 9,
+      "word": "密佈",
+      "sentence": "天邊____烏雲，看來快要下雨了。",
+      "answer": "密佈",
+      "hint": "密密地佈滿",
+      "accept": [
+        "密佈",
+        "密布"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 10,
+      "word": "無處不在",
+      "sentence": "空氣雖然看不見，卻____。",
+      "answer": "無處不在",
+      "hint": "到處都有",
+      "accept": [
+        "無處不在",
+        "无处不在"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 11,
+      "word": "眨眼",
+      "sentence": "時間過得真快，____之間就放學了。",
+      "answer": "眨眼",
+      "hint": "極短時間",
+      "accept": [
+        "眨眼"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 12,
+      "word": "懷抱",
+      "sentence": "我躲進媽媽的____裏，立刻覺得好溫暖。",
+      "answer": "懷抱",
+      "hint": "臂彎／心中抱有的想法",
+      "accept": [
+        "懷抱",
+        "怀抱"
+      ],
+      "lesson": "第十課"
+    },
+    {
+      "card_id": 13,
+      "word": "嚴峻",
+      "sentence": "面對____的考驗，我們更要冷靜。",
+      "answer": "嚴峻",
+      "hint": "形勢嚴重",
+      "accept": [
+        "嚴峻",
+        "严峻"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 14,
+      "word": "足智多謀",
+      "sentence": "軍師____，每次都能想出妙計。",
+      "answer": "足智多謀",
+      "hint": "智慧計謀多",
+      "accept": [
+        "足智多謀",
+        "足智多谋"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 15,
+      "word": "周旋",
+      "sentence": "他和對手____許久，才找出破綻。",
+      "answer": "周旋",
+      "hint": "應付周轉",
+      "accept": [
+        "周旋"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 16,
+      "word": "裝腔作勢",
+      "sentence": "他故意____，其實心裏很緊張。",
+      "answer": "裝腔作勢",
+      "hint": "故意做姿勢",
+      "accept": [
+        "裝腔作勢",
+        "装腔作势"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 17,
+      "word": "完璧歸趙",
+      "sentence": "借來的書要____，不能弄壞。",
+      "answer": "完璧歸趙",
+      "hint": "完好歸還",
+      "accept": [
+        "完璧歸趙",
+        "完璧归赵"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 18,
+      "word": "施詐",
+      "sentence": "壞人常____騙人，我們要小心。",
+      "answer": "施詐",
+      "hint": "用詭計欺騙",
+      "accept": [
+        "施詐",
+        "施诈"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 19,
+      "word": "囂張",
+      "sentence": "他態度十分____，連老師也看不過眼。",
+      "answer": "囂張",
+      "hint": "放肆張狂",
+      "accept": [
+        "囂張",
+        "嚣张"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 20,
+      "word": "胸有成竹",
+      "sentence": "考試前他已溫好書，答題時____。",
+      "answer": "胸有成竹",
+      "hint": "心中早有打算",
+      "accept": [
+        "胸有成竹"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 21,
+      "word": "食言",
+      "sentence": "答應了別人就不要____。",
+      "answer": "食言",
+      "hint": "說了不做",
+      "accept": [
+        "食言"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 22,
+      "word": "瑕疵",
+      "sentence": "這件作品幾乎完美，只有小小____。",
+      "answer": "瑕疵",
+      "hint": "小缺點",
+      "accept": [
+        "瑕疵"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 23,
+      "word": "理直氣壯",
+      "sentence": "因為證據充足，他說話____。",
+      "answer": "理直氣壯",
+      "hint": "理由充分",
+      "accept": [
+        "理直氣壯",
+        "理直气壮"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 24,
+      "word": "目瞪口呆",
+      "sentence": "聽到這個消息，大家都____。",
+      "answer": "目瞪口呆",
+      "hint": "吃驚說不出話",
+      "accept": [
+        "目瞪口呆"
+      ],
+      "lesson": "第十一課"
+    },
+    {
+      "card_id": 25,
+      "word": "絞盡腦汁",
+      "sentence": "為了解這道難題，我____。",
+      "answer": "絞盡腦汁",
+      "hint": "費盡心思",
+      "accept": [
+        "絞盡腦汁",
+        "绞尽脑汁"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 26,
+      "word": "批評",
+      "sentence": "老師溫和地____我寫字姿勢不對。",
+      "answer": "批評",
+      "hint": "提出意見",
+      "accept": [
+        "批評",
+        "批评"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 27,
+      "word": "探討",
+      "sentence": "同學們一起____這篇課文的意思。",
+      "answer": "探討",
+      "hint": "研究討論",
+      "accept": [
+        "探討",
+        "探讨"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 28,
+      "word": "長途跋涉",
+      "sentence": "探險隊____，終於到達山頂。",
+      "answer": "長途跋涉",
+      "hint": "長途辛苦遠行",
+      "accept": [
+        "長途跋涉",
+        "长途跋涉"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 29,
+      "word": "荊棘",
+      "sentence": "成功路上滿是____，但我們不放棄。",
+      "answer": "荊棘",
+      "hint": "困難阻礙",
+      "accept": [
+        "荊棘",
+        "荆棘"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 30,
+      "word": "靈感",
+      "sentence": "寫作文時突然來了____，一下子寫得很順。",
+      "answer": "靈感",
+      "hint": "忽然湧現的好念頭",
+      "accept": [
+        "靈感",
+        "灵感"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 31,
+      "word": "聞名",
+      "sentence": "這家餐廳遠近____，常常大排長龍。",
+      "answer": "聞名",
+      "hint": "有名",
+      "accept": [
+        "聞名",
+        "闻名"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 32,
+      "word": "搭建",
+      "sentence": "颱風過後，工人趕緊____臨時帳篷。",
+      "answer": "搭建",
+      "hint": "搭起建造",
+      "accept": [
+        "搭建"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 33,
+      "word": "領悟",
+      "sentence": "讀了這則故事，我終於____做人的道理。",
+      "answer": "領悟",
+      "hint": "明白體會",
+      "accept": [
+        "領悟",
+        "领悟"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 34,
+      "word": "資產",
+      "sentence": "誠實是人生最寶貴的____。",
+      "answer": "資產",
+      "hint": "有價值的東西",
+      "accept": [
+        "資產",
+        "资产"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 35,
+      "word": "言之有物",
+      "sentence": "寫文章要____，不要空口說白話。",
+      "answer": "言之有物",
+      "hint": "有實際內容",
+      "accept": [
+        "言之有物"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 36,
+      "word": "下筆成章",
+      "sentence": "他才思敏捷，常常____。",
+      "answer": "下筆成章",
+      "hint": "一寫就成好文章",
+      "accept": [
+        "下筆成章",
+        "下笔成章"
+      ],
+      "lesson": "第十三課"
+    },
+    {
+      "card_id": 37,
+      "word": "丞相",
+      "sentence": "古代____協助皇帝處理國家大事。",
+      "answer": "丞相",
+      "hint": "最高官員",
+      "accept": [
+        "丞相"
+      ],
+      "lesson": "第十六課"
+    },
+    {
+      "card_id": 38,
+      "word": "顧",
+      "sentence": "過馬路要左____右盼，注意安全。",
+      "answer": "顧",
+      "hint": "回頭看／照顧",
+      "accept": [
+        "顧",
+        "顾",
+        "雇"
+      ],
+      "lesson": "第十六課"
+    },
+    {
+      "card_id": 39,
+      "word": "濟",
+      "sentence": "街坊合力____困扶危，幫助受災鄰居。",
+      "answer": "濟",
+      "hint": "救助；幫助",
+      "accept": [
+        "濟",
+        "济",
+        "済"
+      ],
+      "lesson": "第十六課"
+    },
+    {
+      "card_id": 40,
+      "word": "映",
+      "sentence": "夕陽____紅了半邊天空。",
+      "answer": "映",
+      "hint": "照射映襯",
+      "accept": [
+        "映"
+      ],
+      "lesson": "第十六課"
+    },
+    {
+      "card_id": 41,
+      "word": "春色",
+      "sentence": "公園裏____滿園，遊人紛紛拍照。",
+      "answer": "春色",
+      "hint": "春天景色",
+      "accept": [
+        "春色"
+      ],
+      "lesson": "第十六課"
+    },
+    {
+      "card_id": 42,
+      "word": "頻",
+      "sentence": "這個月測驗太____密，大家都忙著溫習。",
+      "answer": "頻",
+      "hint": "屢次；連續多次",
+      "accept": [
+        "頻",
+        "频"
+      ],
+      "lesson": "第十六課"
+    },
+    {
+      "card_id": 43,
+      "word": "捷",
+      "sentence": "校運會上____報頻傳，全場歡呼。",
+      "answer": "捷",
+      "hint": "勝利",
+      "accept": [
+        "捷"
+      ],
+      "lesson": "第十六課"
+    },
+    {
+      "card_id": 44,
+      "word": "襟",
+      "sentence": "他胸____坦蕩，從不記恨別人。",
+      "answer": "襟",
+      "hint": "胸懷",
+      "accept": [
+        "襟",
+        "禁",
+        "衿"
+      ],
+      "lesson": "第十六課"
+    }
+  ],
+  "meta": {},
+  "note": "2026-10-26 fix: id7/12/39/42 句意對齊答案（第三關共用）"
+}

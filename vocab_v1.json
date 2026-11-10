@@ -1,0 +1,976 @@
+{
+  "version": "v1",
+  "title": "詞語塔防詞庫",
+  "ui_lock": "C_landscape_battlefield",
+  "character_style": "JP-04B＋MN-03＋LY-10＋BG-01 cyan＋TY-01＋PH-02",
+  "count": 44,
+  "assets_dir": "assets/cards_no_answer/",
+  "accept_aliases": {
+    "納涼": [
+      "納涼",
+      "納凉"
+    ],
+    "密密麻麻": [
+      "密密麻麻"
+    ],
+    "半明半暗": [
+      "半明半暗"
+    ],
+    "搖搖欲墜": [
+      "搖搖欲墜",
+      "摇摇欲坠"
+    ],
+    "模糊": [
+      "模糊"
+    ],
+    "沉睡": [
+      "沉睡"
+    ],
+    "彷彿": [
+      "彷彿",
+      "仿佛"
+    ],
+    "靜寂": [
+      "靜寂",
+      "静寂"
+    ],
+    "密佈": [
+      "密佈",
+      "密布"
+    ],
+    "無處不在": [
+      "無處不在",
+      "无处不在"
+    ],
+    "眨眼": [
+      "眨眼"
+    ],
+    "懷抱": [
+      "懷抱",
+      "怀抱"
+    ],
+    "嚴峻": [
+      "嚴峻",
+      "严峻"
+    ],
+    "足智多謀": [
+      "足智多謀",
+      "足智多谋"
+    ],
+    "周旋": [
+      "周旋"
+    ],
+    "裝腔作勢": [
+      "裝腔作勢",
+      "装腔作势"
+    ],
+    "完璧歸趙": [
+      "完璧歸趙",
+      "完璧归赵"
+    ],
+    "施詐": [
+      "施詐",
+      "施诈"
+    ],
+    "囂張": [
+      "囂張",
+      "嚣张"
+    ],
+    "胸有成竹": [
+      "胸有成竹"
+    ],
+    "食言": [
+      "食言"
+    ],
+    "瑕疵": [
+      "瑕疵"
+    ],
+    "理直氣壯": [
+      "理直氣壯",
+      "理直气壮"
+    ],
+    "目瞪口呆": [
+      "目瞪口呆"
+    ],
+    "絞盡腦汁": [
+      "絞盡腦汁",
+      "绞尽脑汁"
+    ],
+    "批評": [
+      "批評",
+      "批评"
+    ],
+    "探討": [
+      "探討",
+      "探讨"
+    ],
+    "長途跋涉": [
+      "長途跋涉",
+      "长途跋涉"
+    ],
+    "荊棘": [
+      "荊棘",
+      "荆棘"
+    ],
+    "靈感": [
+      "靈感",
+      "灵感"
+    ],
+    "聞名": [
+      "聞名",
+      "闻名"
+    ],
+    "搭建": [
+      "搭建"
+    ],
+    "領悟": [
+      "領悟",
+      "领悟"
+    ],
+    "資產": [
+      "資產",
+      "资产"
+    ],
+    "言之有物": [
+      "言之有物"
+    ],
+    "下筆成章": [
+      "下筆成章",
+      "下笔成章"
+    ],
+    "丞相": [
+      "丞相"
+    ],
+    "顧": [
+      "顧",
+      "顾"
+    ],
+    "濟": [
+      "濟",
+      "济"
+    ],
+    "映": [
+      "映"
+    ],
+    "春色": [
+      "春色"
+    ],
+    "頻": [
+      "頻",
+      "频"
+    ],
+    "捷": [
+      "捷"
+    ],
+    "襟": [
+      "襟"
+    ]
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": "納涼",
+      "image": "01_納涼.jpg",
+      "meaning": "在陰涼的地方乘涼。",
+      "image_path": "cards_no_answer/01_納涼.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "納涼",
+        "納凉"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "nà liáng"
+    },
+    {
+      "id": 2,
+      "word": "密密麻麻",
+      "image": "02_密密麻麻.jpg",
+      "meaning": "又多又密，看不清楚。",
+      "image_path": "cards_no_answer/02_密密麻麻.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "密密麻麻"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "mì mì má má"
+    },
+    {
+      "id": 3,
+      "word": "半明半暗",
+      "image": "03_半明半暗.jpg",
+      "meaning": "光線半明半暗，看不真切。",
+      "image_path": "cards_no_answer/03_半明半暗.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "半明半暗"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "bàn míng bàn àn"
+    },
+    {
+      "id": 4,
+      "word": "搖搖欲墜",
+      "image": "04_搖搖欲墜.jpg",
+      "meaning": "搖晃得快要倒下。",
+      "image_path": "cards_no_answer/04_搖搖欲墜.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "搖搖欲墜",
+        "摇摇欲坠"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "yáo yáo yù zhuì"
+    },
+    {
+      "id": 5,
+      "word": "模糊",
+      "image": "05_模糊.jpg",
+      "meaning": "不清楚；不分明。",
+      "image_path": "cards_no_answer/05_模糊.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "模糊"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "mó hu"
+    },
+    {
+      "id": 6,
+      "word": "沉睡",
+      "image": "06_沉睡.jpg",
+      "meaning": "睡得很熟。",
+      "image_path": "cards_no_answer/06_沉睡.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "沉睡"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "chén shuì"
+    },
+    {
+      "id": 7,
+      "word": "彷彿",
+      "image": "07_彷彿.jpg",
+      "meaning": "好像；似乎。",
+      "image_path": "cards_no_answer/07_彷彿.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "彷彿",
+        "仿佛"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "fǎng fú"
+    },
+    {
+      "id": 8,
+      "word": "靜寂",
+      "image": "08_靜寂.jpg",
+      "meaning": "非常安靜，沒有聲音。",
+      "image_path": "cards_no_answer/08_靜寂.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "靜寂",
+        "静寂"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "jìng jì"
+    },
+    {
+      "id": 9,
+      "word": "密佈",
+      "image": "09_密佈.jpg",
+      "meaning": "密密地佈滿。",
+      "image_path": "cards_no_answer/09_密佈.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "密佈",
+        "密布"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "mì bù"
+    },
+    {
+      "id": 10,
+      "word": "無處不在",
+      "image": "10_無處不在.jpg",
+      "meaning": "到處都有；到處都在。",
+      "image_path": "cards_no_answer/10_無處不在.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "無處不在",
+        "无处不在"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "wú chù bù zài"
+    },
+    {
+      "id": 11,
+      "word": "眨眼",
+      "image": "11_眨眼.jpg",
+      "meaning": "眼皮快速開合；形容時間極短。",
+      "image_path": "cards_no_answer/11_眨眼.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "眨眼"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "zhǎ yǎn"
+    },
+    {
+      "id": 12,
+      "word": "懷抱",
+      "image": "12_懷抱.jpg",
+      "meaning": "用胳膊圍住；心中抱有的想法。",
+      "image_path": "cards_no_answer/12_懷抱.jpg",
+      "lesson": "第十課",
+      "accept": [
+        "懷抱",
+        "怀抱"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "huái bào"
+    },
+    {
+      "id": 13,
+      "word": "嚴峻",
+      "image": "13_嚴峻.jpg",
+      "meaning": "嚴厲、嚴肅；形勢嚴重。",
+      "image_path": "cards_no_answer/13_嚴峻.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "嚴峻",
+        "严峻"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "yán jùn"
+    },
+    {
+      "id": 14,
+      "word": "足智多謀",
+      "image": "14_足智多謀.jpg",
+      "meaning": "智慧多，計謀多。",
+      "image_path": "cards_no_answer/14_足智多謀.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "足智多謀",
+        "足智多谋"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "zú zhì duō móu"
+    },
+    {
+      "id": 15,
+      "word": "周旋",
+      "image": "15_周旋.jpg",
+      "meaning": "應酬交際；與對方周轉應付。",
+      "image_path": "cards_no_answer/15_周旋.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "周旋"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "zhōu xuán"
+    },
+    {
+      "id": 16,
+      "word": "裝腔作勢",
+      "image": "16_裝腔作勢.jpg",
+      "meaning": "故意做出某種腔調或姿勢。",
+      "image_path": "cards_no_answer/16_裝腔作勢.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "裝腔作勢",
+        "装腔作势"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "zhuāng qiāng zuò shì"
+    },
+    {
+      "id": 17,
+      "word": "完璧歸趙",
+      "image": "17_完璧歸趙.jpg",
+      "meaning": "把原物完好地歸還主人。",
+      "image_path": "cards_no_answer/17_完璧歸趙.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "完璧歸趙",
+        "完璧归赵"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "wán bì guī zhào"
+    },
+    {
+      "id": 18,
+      "word": "施詐",
+      "image": "18_施詐.jpg",
+      "meaning": "使用詭計欺騙別人。",
+      "image_path": "cards_no_answer/18_施詐.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "施詐",
+        "施诈"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "shī zhà"
+    },
+    {
+      "id": 19,
+      "word": "囂張",
+      "image": "19_囂張.jpg",
+      "meaning": "放肆張狂，氣勢逼人。",
+      "image_path": "cards_no_answer/19_囂張.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "囂張",
+        "嚣张"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "xiāo zhāng"
+    },
+    {
+      "id": 20,
+      "word": "胸有成竹",
+      "image": "20_胸有成竹.jpg",
+      "meaning": "做事之前心中已有完整打算。",
+      "image_path": "cards_no_answer/20_胸有成竹.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "胸有成竹"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "xiōng yǒu chéng zhú"
+    },
+    {
+      "id": 21,
+      "word": "食言",
+      "image": "21_食言.jpg",
+      "meaning": "說了話不做；不履行諾言。",
+      "image_path": "cards_no_answer/21_食言.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "食言"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "shí yán"
+    },
+    {
+      "id": 22,
+      "word": "瑕疵",
+      "image": "22_瑕疵.jpg",
+      "meaning": "微小的缺點或毛病。",
+      "image_path": "cards_no_answer/22_瑕疵.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "瑕疵"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "xiá cī"
+    },
+    {
+      "id": 23,
+      "word": "理直氣壯",
+      "image": "23_理直氣壯.jpg",
+      "meaning": "理由充分，說話有氣勢。",
+      "image_path": "cards_no_answer/23_理直氣壯.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "理直氣壯",
+        "理直气壮"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "lǐ zhí qì zhuàng"
+    },
+    {
+      "id": 24,
+      "word": "目瞪口呆",
+      "image": "24_目瞪口呆.jpg",
+      "meaning": "吃驚得眼睛直瞪、說不出話。",
+      "image_path": "cards_no_answer/24_目瞪口呆.jpg",
+      "lesson": "第十一課",
+      "accept": [
+        "目瞪口呆"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "mù dèng kǒu dāi"
+    },
+    {
+      "id": 25,
+      "word": "絞盡腦汁",
+      "image": "25_絞盡腦汁.jpg",
+      "meaning": "費盡心思去思考。",
+      "image_path": "cards_no_answer/25_絞盡腦汁.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "絞盡腦汁",
+        "绞尽脑汁"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "jiǎo jìn nǎo zhī"
+    },
+    {
+      "id": 26,
+      "word": "批評",
+      "image": "26_批評.jpg",
+      "meaning": "對缺點錯誤提出意見。",
+      "image_path": "cards_no_answer/26_批評.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "批評",
+        "批评"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "pī píng"
+    },
+    {
+      "id": 27,
+      "word": "探討",
+      "image": "27_探討.jpg",
+      "meaning": "研究討論。",
+      "image_path": "cards_no_answer/27_探討.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "探討",
+        "探讨"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "tàn tǎo"
+    },
+    {
+      "id": 28,
+      "word": "長途跋涉",
+      "image": "28_長途跋涉.jpg",
+      "meaning": "長距離辛苦地遠行。",
+      "image_path": "cards_no_answer/28_長途跋涉.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "長途跋涉",
+        "长途跋涉"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "cháng tú bá shè"
+    },
+    {
+      "id": 29,
+      "word": "荊棘",
+      "image": "29_荊棘.jpg",
+      "meaning": "帶刺的灌木；比喻困難阻礙。",
+      "image_path": "cards_no_answer/29_荊棘.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "荊棘",
+        "荆棘"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "jīng jí"
+    },
+    {
+      "id": 30,
+      "word": "靈感",
+      "image": "30_靈感.jpg",
+      "meaning": "忽然湧現的好念頭或創意。",
+      "image_path": "cards_no_answer/30_靈感.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "靈感",
+        "灵感"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "líng gǎn"
+    },
+    {
+      "id": 31,
+      "word": "聞名",
+      "image": "31_聞名.jpg",
+      "meaning": "名聲為人所知；有名。",
+      "image_path": "cards_no_answer/31_聞名.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "聞名",
+        "闻名"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "wén míng"
+    },
+    {
+      "id": 32,
+      "word": "搭建",
+      "image": "32_搭建.jpg",
+      "meaning": "搭起、建造（臨時建築等）。",
+      "image_path": "cards_no_answer/32_搭建.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "搭建"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "dā jiàn"
+    },
+    {
+      "id": 33,
+      "word": "領悟",
+      "image": "33_領悟.jpg",
+      "meaning": "明白、體會到其中道理。",
+      "image_path": "cards_no_answer/33_領悟.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "領悟",
+        "领悟"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "lǐng wù"
+    },
+    {
+      "id": 34,
+      "word": "資產",
+      "image": "34_資產.jpg",
+      "meaning": "財產；有價值的東西。",
+      "image_path": "cards_no_answer/34_資產.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "資產",
+        "资产"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "zī chǎn"
+    },
+    {
+      "id": 35,
+      "word": "言之有物",
+      "image": "35_言之有物.jpg",
+      "meaning": "說話或文章有實際內容。",
+      "image_path": "cards_no_answer/35_言之有物.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "言之有物"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "yán zhī yǒu wù"
+    },
+    {
+      "id": 36,
+      "word": "下筆成章",
+      "image": "36_下筆成章.jpg",
+      "meaning": "一動筆就能寫成好文章。",
+      "image_path": "cards_no_answer/36_下筆成章.jpg",
+      "lesson": "第十三課",
+      "accept": [
+        "下筆成章",
+        "下笔成章"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "pinyin": "xià bǐ chéng zhāng"
+    },
+    {
+      "id": 37,
+      "word": "丞相",
+      "image": "37_丞相.jpg",
+      "meaning": "古代輔佐皇帝的最高官員。",
+      "image_path": "cards_no_answer/37_丞相.jpg",
+      "lesson": "第十六課",
+      "accept": [
+        "丞相"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "chéng xiàng"
+    },
+    {
+      "id": 38,
+      "word": "顧",
+      "image": "38_顧.jpg",
+      "meaning": "回頭看；照顧；顧慮。",
+      "image_path": "cards_no_answer/38_顧.jpg",
+      "lesson": "第十六課",
+      "accept": [
+        "顧",
+        "顾",
+        "雇"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 1,
+      "atk": 8,
+      "hp": 22,
+      "power_tier": "1字",
+      "pinyin": "gù"
+    },
+    {
+      "id": 39,
+      "word": "濟",
+      "image": "39_濟.jpg",
+      "meaning": "救助；渡過；有益。",
+      "image_path": "cards_no_answer/39_濟.jpg",
+      "lesson": "第十六課",
+      "accept": [
+        "濟",
+        "济",
+        "済"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 1,
+      "atk": 8,
+      "hp": 22,
+      "power_tier": "1字",
+      "pinyin": "jì"
+    },
+    {
+      "id": 40,
+      "word": "映",
+      "image": "40_映.jpg",
+      "meaning": "照射；反映；映襯。",
+      "image_path": "cards_no_answer/40_映.jpg",
+      "lesson": "第十六課",
+      "accept": [
+        "映"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 1,
+      "atk": 8,
+      "hp": 22,
+      "power_tier": "1字",
+      "pinyin": "yìng"
+    },
+    {
+      "id": 41,
+      "word": "春色",
+      "image": "41_春色.jpg",
+      "meaning": "春天的景色。",
+      "image_path": "cards_no_answer/41_春色.jpg",
+      "lesson": "第十六課",
+      "accept": [
+        "春色"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "pinyin": "chūn sè"
+    },
+    {
+      "id": 42,
+      "word": "頻",
+      "image": "42_頻.jpg",
+      "meaning": "屢次；連續多次。",
+      "image_path": "cards_no_answer/42_頻.jpg",
+      "lesson": "第十六課",
+      "accept": [
+        "頻",
+        "频"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 1,
+      "atk": 8,
+      "hp": 22,
+      "power_tier": "1字",
+      "pinyin": "pín"
+    },
+    {
+      "id": 43,
+      "word": "捷",
+      "image": "43_捷.jpg",
+      "meaning": "快；勝利。",
+      "image_path": "cards_no_answer/43_捷.jpg",
+      "lesson": "第十六課",
+      "accept": [
+        "捷"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 1,
+      "atk": 8,
+      "hp": 22,
+      "power_tier": "1字",
+      "pinyin": "jié"
+    },
+    {
+      "id": 44,
+      "word": "襟",
+      "image": "44_襟.jpg",
+      "meaning": "衣服胸前部分；胸懷。",
+      "image_path": "cards_no_answer/44_襟.jpg",
+      "lesson": "第十六課",
+      "accept": [
+        "襟",
+        "禁",
+        "衿"
+      ],
+      "image_dir": "cards_no_answer",
+      "char_count": 1,
+      "atk": 8,
+      "hp": 22,
+      "power_tier": "1字",
+      "pinyin": "jīn"
+    }
+  ],
+  "rules": {
+    "show_card_with_meaning": true,
+    "hide_answer_word": true,
+    "meaning_full_text": true,
+    "accept_simplified": true,
+    "show_full_card_with_background": true,
+    "hide_answer_word_on_card": true,
+    "atk_scales_with_char_count": true
+  },
+  "assets_note": "Use cards_no_answer (full card art, answer word removed). Do not use titled 圖鑑 JPGs in-game.",
+  "combat_balance": {
+    "rule": "字數愈多攻擊愈強：4字 > 3字 > 2字 > 1字",
+    "atk_by_chars": {
+      "1": 8,
+      "2": 14,
+      "3": 18,
+      "4": 24
+    },
+    "hp_by_chars": {
+      "1": 22,
+      "2": 28,
+      "3": 32,
+      "4": 38
+    }
+  },
+  "pinyin_note": "zh-CN syllable pinyin added 2026-10-27 knife TTS"
+}

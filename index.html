@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>詞語塔防 · 雙塔出擊</title>
+  <link rel="stylesheet" href="style.css?v=ytdbc91" />
+</head>
+<body>
+  <!-- Boot home -->
+  <div id="boot-screen">
+    <div class="boot-panel">
+      <h1 class="boot-title">詞語塔防</h1>
+      <p class="boot-sub">雙塔出擊 · 寫詞上陣</p>
+      <!-- ytdbc46 (was45) knife④: 難易度＋遊戲速度（localStorage；預設普通／1×） -->
+      <div class="boot-settings" id="boot-settings">
+        <div class="boot-set-row" role="group" aria-label="難易度">
+          <span class="boot-set-label">難易度</span>
+          <button type="button" class="boot-chip" data-diff="easy">簡單</button>
+          <button type="button" class="boot-chip" data-diff="normal">普通</button>
+          <button type="button" class="boot-chip" data-diff="hard">困難</button>
+        </div>
+        <div class="boot-set-row" role="group" aria-label="遊戲速度">
+          <span class="boot-set-label">速度</span>
+          <button type="button" class="boot-chip" data-speed="1">1×</button>
+          <button type="button" class="boot-chip" data-speed="1.5">1.5×</button>
+          <button type="button" class="boot-chip" data-speed="2">2×</button>
+        </div>
+      </div>
+      <div class="boot-btns">
+        <button type="button" id="btn-boot-stage1" class="btn primary boot-btn">第一關</button>
+        <button type="button" id="btn-boot-stage2" class="btn primary boot-btn">第二關 · 期考詞語</button>
+        <button type="button" id="btn-boot-stage3" class="btn primary boot-btn">第三關 · 造句</button>
+        <button type="button" id="btn-boot-stage4" class="btn primary boot-btn">第四關 · 全庫造句</button>
+        <button type="button" id="btn-boot-stage5" class="btn primary boot-btn">第五關 · 成語</button>
+        <button type="button" id="btn-boot-stage6" class="btn primary boot-btn">第六關 · 拼音四選一</button>
+        <button type="button" id="btn-boot-stage7" class="btn primary boot-btn">第七關 · 默書（溫書）</button>
+        <button type="button" id="btn-boot-stage8" class="btn primary boot-btn">第八關 · 圖二＋十課填句</button>
+        <button type="button" id="btn-boot-stage10" class="btn primary boot-btn">第十關 · 重組句子</button>
+        <button type="button" id="btn-boot-stage11" class="btn primary boot-btn">第十一關 · 默書（理髮大師）</button>
+        <button type="button" id="btn-boot-stage12" class="btn primary boot-btn">第十二關 · 默書</button>
+        <button type="button" id="btn-boot-gallery" class="btn boot-btn boot-btn-alt">圖庫</button>
+        <!-- ytdbc16b: 主畫面無「抽盲盒」入口；盲盒只喺 BOSS 通關特別畫面 -->
+        <button type="button" id="btn-boot-gacha" class="btn boot-btn boot-btn-alt hidden" hidden aria-hidden="true" style="display:none">抽盲盒</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pick screen -->
+  <div id="pick-screen" class="hidden">
+    <header class="pick-hud">
+      <button type="button" id="btn-pick-back" class="btn ghost">← 開機</button>
+      <h1 id="pick-title">選 10 張出戰卡</h1>
+      <div class="pick-success" id="pick-success">成功：0</div>
+      <div class="pick-count"><span id="pick-n">0</span> / 10</div>
+      <button type="button" id="btn-start" class="btn primary" disabled>開始對戰</button>
+    </header>
+    <div id="pick-grid"></div>
+  </div>
+
+  <!-- Gallery -->
+  <div id="gallery-screen" class="hidden" role="dialog" aria-modal="true">
+    <header class="pick-hud">
+      <button type="button" id="btn-gallery-close" class="btn ghost">← 返回</button>
+      <h1>圖庫</h1>
+      <div class="pick-success" id="gallery-owned">擁有：—</div>
+    </header>
+    <div id="gallery-tabs" class="gallery-tabs" role="tablist" aria-label="圖庫系列">
+      <button type="button" class="gal-tab is-on" data-tab="pinyin" role="tab" aria-selected="true">
+        <img class="gal-tab-logo" src="assets/series_logos/logo_拼音系.png?v=ytdbc34" alt="" />
+        <span>拼音系</span>
+      </button>
+      <button type="button" class="gal-tab" data-tab="chengyu" role="tab" aria-selected="false">
+        <img class="gal-tab-logo" src="assets/series_logos/logo_成語系.png?v=ytdbc34" alt="" />
+        <span>成語系</span>
+      </button>
+      <button type="button" class="gal-tab" data-tab="ciyu" role="tab" aria-selected="false">
+        <img class="gal-tab-logo" src="assets/series_logos/logo_詞語系.png?v=ytdbc34" alt="" />
+        <span>詞語系</span>
+      </button>
+      <button type="button" class="gal-tab" data-tab="special" role="tab" aria-selected="false">
+        <img class="gal-tab-logo" src="assets/special_gallery/ui_tab_special.png?v=ytdbc34" alt="" />
+        <span>特別卡</span>
+      </button>
+      <button type="button" class="gal-tab" data-tab="lifa" role="tab" aria-selected="false">
+        <img class="gal-tab-logo" src="assets/series_logos/logo_詞語系.png?v=ytdbc91" alt="" />
+        <span>理髮</span>
+      </button>
+      <button type="button" class="gal-tab" data-tab="fanxing" role="tab" aria-selected="false">
+        <img class="gal-tab-logo" src="assets/series_logos/logo_詞語系.png?v=ytdbc91" alt="" />
+        <span>繁星</span>
+      </button>
+    </div>
+    <div id="gallery-series-banner" class="gallery-series-banner">
+      <img id="gallery-series-logo" alt="" />
+      <span id="gallery-series-label">拼音系</span>
+    </div>
+    <div id="gallery-grid"></div>
+  </div>
+
+  <!-- Gacha -->
+  <div id="gacha-screen" class="hidden" role="dialog" aria-modal="true">
+    <div class="gacha-panel">
+      <h2 class="gacha-title">通關盲盒</h2>
+      <p class="gacha-hint" id="gacha-hint">免費抽一次蟲卡（未解鎖優先）</p>
+      <div id="gacha-stage" class="gacha-stage">
+        <div id="gacha-box" class="gacha-box">？</div>
+        <div id="gacha-reveal" class="gacha-reveal hidden">
+          <img id="gacha-card-img" alt="" />
+          <img id="gacha-unit-img" class="gacha-unit" alt="" />
+          <div id="gacha-name" class="gacha-name"></div>
+          <div id="gacha-tag" class="gacha-tag"></div>
+        </div>
+      </div>
+      <div class="gacha-btns">
+        <button type="button" id="btn-gacha-pull" class="btn primary boot-btn">抽！</button>
+        <button type="button" id="btn-gacha-again" class="btn boot-btn boot-btn-alt hidden">再抽</button>
+        <button type="button" id="btn-gacha-close" class="btn ghost">返回開機</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Battle: TOP ~45% battlefield / BOTTOM ~55% dock (選卡位 | 寫字位) -->
+  <div id="app" class="hidden">
+    <main id="battlefield">
+      <!-- Fuji: CSS placeholder; assets/bg_fuji_battlefield_16x9.jpg → .has-fuji-photo -->
+      <div id="fuji-bg" aria-hidden="true">
+        <div class="fuji-sky"></div>
+        <div class="fuji-silhouette"></div>
+        <div class="fuji-ground"></div>
+        <!-- ytdbc49 knife④: BG motion overlays (volcano/forest/space) — LOCK BG keep -->
+        <div id="bg-fx-layer" class="bg-fx-layer" aria-hidden="true"></div>
+      </div>
+
+      <!-- Top-center energy pill -->
+      <div id="energy-pill" title="出擊能量">
+        <span class="energy-label">能量 Bar</span>
+        <div class="energy-track"><i id="energy-bar"></i></div>
+        <span id="energy-num" class="energy-num">0</span>
+      </div>
+
+      <!-- Vertical tower HP (left 城主 / right 敵方) -->
+      <div class="vbar player" aria-label="城主能量">
+        <span class="vbar-label">城主</span>
+        <div class="vbar-track"><i id="hp-player-bar"></i></div>
+        <span id="hp-player" class="vbar-num">100</span>
+      </div>
+      <div class="vbar enemy" aria-label="敵方能量">
+        <span class="vbar-label">敵方</span>
+        <div class="vbar-track"><i id="hp-enemy-bar"></i></div>
+        <span id="hp-enemy" class="vbar-num">100</span>
+      </div>
+
+      <div id="lane">
+        <div id="tower-player" class="tower" aria-label="獨角仙巢穴">塔</div>
+        <div id="units"></div>
+        <div id="tower-enemy" class="tower" aria-hidden="true">塔</div>
+      </div>
+
+      <div id="sentence-bubble" class="sentence-bubble hidden" aria-live="polite">
+        <div class="sb-row">
+          <img id="prompt-card-thumb" class="prompt-card-thumb hidden" alt="" draggable="false" data-ytdbc63="s3-card-s4-text" />
+          <div class="sb-body">
+            <div class="sb-label">造句</div>
+            <div id="sentence-text" class="sb-text"></div>
+            <div id="sentence-hint" class="sb-hint"></div>
+            <div id="answer-peek-wrap" class="answer-peek-wrap hidden">
+              <button type="button" id="btn-answer-peek" class="btn-answer-peek">睇答案</button>
+              <span class="answer-peek-cost" aria-hidden="true">扣塔血</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="hud-status" class="battle-status">寫詞出擊！</div>
+      <div id="success-hud" class="success-hud" title="累計成功出擊">成功：0</div>
+      <div id="kill-hud" class="kill-hud" title="小敵擊殺（滿 20 出 BIG BOSS）">擊殺 0／20</div>
+      <div id="speed-hud" class="speed-hud" role="group" aria-label="遊戲速度">
+        <button type="button" class="speed-chip" data-speed="1">1×</button>
+        <button type="button" class="speed-chip" data-speed="1.5">1.5×</button>
+        <button type="button" class="speed-chip" data-speed="2">2×</button>
+      </div>
+      <div id="diff-hud" class="diff-hud" title="難易度">普通</div>
+      <div id="streak-hud" class="streak-hud" hidden>連殺 0／4</div>
+      <button type="button" id="btn-ult" class="btn-ult hidden" aria-label="大招" title="大招"></button>
+      <div id="ult-pick" class="ult-pick hidden" role="dialog" aria-modal="true" aria-label="揀大招蟲卡">
+        <div class="ult-pick-panel">
+          <h3 class="ult-pick-title">揀大招蟲卡</h3>
+          <p class="ult-pick-hint hidden" id="ult-pick-hint">已揀．其餘變暗</p>
+          <div id="ult-pick-grid" class="ult-pick-grid"></div>
+          <div class="ult-pick-actions">
+            <button type="button" id="btn-ult-pick-confirm" class="btn-ult-confirm">確認</button>
+            <button type="button" id="btn-ult-pick-close" class="btn-ult-cancel">取消</button>
+          </div>
+        </div>
+      </div>
+      <div id="ult-flash" class="ult-flash hidden" aria-hidden="true">
+        <div class="ult-bolts"></div>
+        <div class="ult-label">大招！</div>
+      </div>
+      <div id="boss-ult-flash" class="boss-ult-flash hidden" aria-hidden="true">
+        <div class="boss-ult-bolts"></div>
+        <div class="boss-ult-label">BOSS 大招！</div>
+      </div>
+    </main>
+
+    <footer id="write-dock">
+      <!-- Left: 選卡位 2×5 -->
+      <section id="deck-pane" aria-label="選卡位">
+        <div class="pane-title-row">
+          <h2 class="pane-title">選卡位</h2>
+          <button type="button" id="btn-reveal" class="btn ghost btn-reveal" aria-pressed="false">睇答案</button>
+        </div>
+        <div id="deck-grid"></div>
+      </section>
+
+      <!-- Right: 寫字位 + enlarged selected card -->
+      <section id="write-pane" aria-label="寫字位">
+        <div class="pane-title-row write-title-row">
+          <div id="input-mode-tog" class="input-mode-tog" role="group" aria-label="輸入方式">
+            <button type="button" id="btn-mode-pencil" class="btn ghost mode-btn is-on" aria-pressed="true">Pencil</button>
+            <button type="button" id="btn-mode-kb" class="btn ghost mode-btn" aria-pressed="false">鍵盤</button>
+          </div>
+          <h2 class="pane-title">寫字位</h2>
+          <button type="button" id="btn-skip" class="btn ghost btn-skip hidden" title="打唔到可 SKIP 換下一題">SKIP</button>
+        </div>
+        <div id="write-body">
+          <div id="ink-col">
+            <form id="answer-form" autocomplete="off">
+              <div id="paper-wrap">
+                <textarea
+                  id="answer"
+                  rows="2"
+                  inputmode="none"
+                  enterkeyhint="done"
+                  lang="zh-Hant"
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="off"
+                  spellcheck="false"
+                  placeholder="用 Pencil 直接寫喺紙上"
+                  aria-label="寫詞紙"
+                ></textarea>
+                <div id="ink-clear-btns" class="ink-clear-btns" role="group" aria-label="清字">
+                  <button type="button" id="btn-clear-ink" class="btn ghost" title="清晒紙上所有字">清全部</button>
+                  <button type="button" id="btn-clear-one" class="btn ghost" title="只清最後一個字">清一字</button>
+                </div>
+              </div>
+              <button type="submit" id="btn-submit" class="btn primary">出擊</button>
+            </form>
+          </div>
+          <div id="sel-preview" aria-label="選了的卡變大">
+            <div class="sel-hint">選了的卡變大</div>
+            <div id="sel-card" class="sel-empty">點左欄卡</div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- ytdbc21 Stage5: 漢字＋4拼音button（無選卡／無手寫） -->
+    <section id="pinyin-pane" class="hidden" aria-label="拼音四選一">
+      <div class="pinyin-top">
+        <div class="pinyin-prompt-wrap">
+          <div class="pinyin-label">揀正確拼音出擊</div>
+          <div id="pinyin-hanzi" class="pinyin-hanzi">—</div>
+          <div id="pinyin-meaning" class="pinyin-meaning"></div>
+        </div>
+        <button type="button" id="btn-skip-pinyin" class="btn ghost btn-skip" title="打唔到可 SKIP 換下一題">SKIP</button>
+      </div>
+      <div id="pinyin-btns" class="pinyin-btns" role="group" aria-label="拼音選項"></div>
+    </section>
+
+
+    <!-- ytdbc84 soft: S10 重組句子 drag（DRAFT bank；毛毛蟲×5 keep art） -->
+    <section id="reorder-pane" class="hidden" aria-label="重組句子">
+      <div class="reorder-top">
+        <div class="reorder-prompt-wrap">
+          <div class="reorder-label">拖動詞塊排正確次序</div>
+          <div id="reorder-hint" class="reorder-hint">第十關 · 重組句子（soft DRAFT）</div>
+          <div id="reorder-owned" class="reorder-owned" aria-live="polite"></div>
+        </div>
+        <button type="button" id="btn-skip-reorder" class="btn ghost btn-skip" title="SKIP 換下一題">SKIP</button>
+      </div>
+      <div id="reorder-tokens" class="reorder-tokens" role="list" aria-label="詞塊次序"></div>
+      <div class="reorder-actions">
+        <button type="button" id="btn-reorder-check" class="btn primary">確認出擊</button>
+        <button type="button" id="btn-reorder-shuffle" class="btn ghost">打亂重排</button>
+      </div>
+      <div id="reorder-reward" class="reorder-reward hidden" aria-live="polite"></div>
+    </section>
+
+    <div id="overlay" class="hidden" role="dialog" aria-modal="true">
+      <div class="panel">
+        <h2 id="overlay-title">—</h2>
+        <p id="overlay-msg"></p>
+        <button type="button" id="btn-replay" class="btn primary">再玩（重選卡）</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="game.js?v=ytdbc91"></script>
+</body>
+</html>

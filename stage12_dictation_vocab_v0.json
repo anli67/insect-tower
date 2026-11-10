@@ -1,0 +1,460 @@
+{
+  "version": "stage12_moshu_dictation_v0",
+  "title": "第十二關·繁星默書",
+  "status": "KEEP_STAMPED_201",
+  "date": "2026-11-08",
+  "stage": 12,
+  "play": "無卡選；zh-CN TTS 讀詞；寫詞；啱＝出角式",
+  "base_tip": "ytdbc85",
+  "est_tip": "ytdbc86",
+  "id_policy": "S12 vocab ids 201–223 fixed; REUSE via reuse_card_id only",
+  "count": 23,
+  "need_art_count": 0,
+  "reuse_count": 3,
+  "words": [
+    {
+      "id": 201,
+      "word": "家鄉",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "jiā xiāng",
+      "accept": [
+        "家鄉",
+        "家乡"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "自己出生或長期居住的地方。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 202,
+      "word": "庭院",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "tíng yuàn",
+      "accept": [
+        "庭院"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "房子前面的院子。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 203,
+      "word": "繁星",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "fán xīng",
+      "accept": [
+        "繁星"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "很多很多的星星。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 204,
+      "word": "忘掉一切",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "wàng diào yī qiè",
+      "accept": [
+        "忘掉一切"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "把所有事情都忘記。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 205,
+      "word": "母親的懷裏",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "mǔ qīn de huái lǐ",
+      "accept": [
+        "母親的懷裏",
+        "母亲的怀里"
+      ],
+      "char_count": 5,
+      "atk": 32,
+      "hp": 38,
+      "power_tier": "5字",
+      "meaning": "在母親的懷抱中。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 206,
+      "word": "感覺",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "gǎn jué",
+      "accept": [
+        "感覺",
+        "感觉"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "覺得；感受。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 207,
+      "word": "菜園",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "cài yuán",
+      "accept": [
+        "菜園",
+        "菜园"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "種蔬菜的園子。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 208,
+      "word": "星羣密佈",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "xīng qún mì bù",
+      "accept": [
+        "星羣密佈",
+        "星群密布",
+        "星群密佈"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "星星一群群密密地分佈。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 209,
+      "word": "關於",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "guān yú",
+      "accept": [
+        "關於",
+        "关于"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "涉及；有關。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 210,
+      "word": "談話",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "tán huà",
+      "accept": [
+        "談話",
+        "谈话"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "彼此交談。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 211,
+      "word": "繁星相對",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "fán xīng xiāng duì",
+      "accept": [
+        "繁星相對",
+        "繁星相对"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "和滿天繁星相對／面對。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 212,
+      "word": "認得很熟了",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "rèn de hěn shú le",
+      "accept": [
+        "認得很熟了",
+        "认得很熟了"
+      ],
+      "char_count": 5,
+      "atk": 32,
+      "hp": 38,
+      "power_tier": "5字",
+      "meaning": "已經很熟悉了。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 213,
+      "word": "躺在艙面上",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "tǎng zài cāng miàn shàng",
+      "accept": [
+        "躺在艙面上",
+        "躺在舱面上"
+      ],
+      "char_count": 5,
+      "atk": 32,
+      "hp": 38,
+      "power_tier": "5字",
+      "meaning": "躺在船艙的甲板上。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 214,
+      "word": "仰望著天空",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "yǎng wàng zhe tiān kōng",
+      "accept": [
+        "仰望著天空"
+      ],
+      "char_count": 5,
+      "atk": 32,
+      "hp": 38,
+      "power_tier": "5字",
+      "meaning": "抬頭看天空。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 215,
+      "word": "懸著",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "xuán zhe",
+      "accept": [
+        "懸著",
+        "悬著"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "掛著；吊著。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 216,
+      "word": "掛得那麼低",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "guà de nà me dī",
+      "accept": [
+        "掛得那麼低",
+        "挂得那么低"
+      ],
+      "char_count": 5,
+      "atk": 32,
+      "hp": 38,
+      "power_tier": "5字",
+      "meaning": "掛得非常低。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 217,
+      "word": "搖搖欲墜",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "yáo yáo yù zhuì",
+      "accept": [
+        "搖搖欲墜",
+        "摇摇欲坠"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "搖晃得快要掉下來。",
+      "source": "worksheet notes 201–223",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 4
+    },
+    {
+      "id": 218,
+      "word": "漸漸",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "jiàn jiàn",
+      "accept": [
+        "漸漸",
+        "渐渐"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "慢慢地；逐漸。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 219,
+      "word": "模糊",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "mó hu",
+      "accept": [
+        "模糊"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "不清楚。",
+      "source": "worksheet notes 201–223",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 5
+    },
+    {
+      "id": 220,
+      "word": "螢火蟲",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "yíng huǒ chóng",
+      "accept": [
+        "螢火蟲",
+        "萤火虫"
+      ],
+      "char_count": 3,
+      "atk": 18,
+      "hp": 32,
+      "power_tier": "3字",
+      "meaning": "尾部能發光的昆蟲。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 221,
+      "word": "周圍",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "zhōu wéi",
+      "accept": [
+        "周圍",
+        "周围"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "四周。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 222,
+      "word": "飛舞",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "fēi wǔ",
+      "accept": [
+        "飛舞",
+        "飞舞"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "飛來飛去像跳舞。",
+      "source": "worksheet notes 201–223",
+      "art": "KEEP",
+      "art_prev": "NEED_ART"
+    },
+    {
+      "id": 223,
+      "word": "沉睡",
+      "lesson": "第十課",
+      "title_ref": "繁星",
+      "pinyin": "chén shuì",
+      "accept": [
+        "沉睡",
+        "沈睡"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "睡得很熟。",
+      "source": "worksheet notes 201–223",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 6
+    }
+  ],
+  "clar": [
+    "Co Clar：S12 詞表 id 必須 201–223（唔好改成 4/5/6）；REUSE 三詞用 reuse_card_id 指 live"
+  ],
+  "art_status": "KEEP",
+  "keep_stamp": "KEEP_STAMP_art_td_s12_fanxing_shengzi_v0_2026-11-08.md",
+  "keep_count": 20,
+  "art_counts": {
+    "KEEP": 20,
+    "REUSE_EXISTING": 3
+  },
+  "note_keep": "Co PASS LOCK KEEP stamp art_td_s12_fanxing_shengzi_v0 NEED20 id 201–216/218/220–222; REUSE 217/219/223→deck4/5/6; "
+}

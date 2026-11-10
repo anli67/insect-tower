@@ -1,0 +1,385 @@
+{
+  "note": "ids45–54 蟲卡擴充：美術檔名 bug_NN／card_bug_NN @ bugs_new10_v1_2026-10-25/",
+  "count": 54,
+  "units": [
+    {
+      "id": 1,
+      "word": "納涼",
+      "card_image": "01_納涼.jpg",
+      "suggested_ally": "ally_01_納涼.png",
+      "suggested_ally_png": "ally_01_納涼.png"
+    },
+    {
+      "id": 2,
+      "word": "密密麻麻",
+      "card_image": "02_密密麻麻.jpg",
+      "suggested_ally": "ally_02_密密麻麻.png",
+      "suggested_ally_png": "ally_02_密密麻麻.png"
+    },
+    {
+      "id": 3,
+      "word": "半明半暗",
+      "card_image": "03_半明半暗.jpg",
+      "suggested_ally": "ally_03_半明半暗.png",
+      "suggested_ally_png": "ally_03_半明半暗.png"
+    },
+    {
+      "id": 4,
+      "word": "搖搖欲墜",
+      "card_image": "04_搖搖欲墜.jpg",
+      "suggested_ally": "ally_04_搖搖欲墜.png",
+      "suggested_ally_png": "ally_04_搖搖欲墜.png"
+    },
+    {
+      "id": 5,
+      "word": "模糊",
+      "card_image": "05_模糊.jpg",
+      "suggested_ally": "ally_05_模糊.png",
+      "suggested_ally_png": "ally_05_模糊.png"
+    },
+    {
+      "id": 6,
+      "word": "沉睡",
+      "card_image": "06_沉睡.jpg",
+      "suggested_ally": "ally_06_沉睡.png",
+      "suggested_ally_png": "ally_06_沉睡.png"
+    },
+    {
+      "id": 7,
+      "word": "彷彿",
+      "card_image": "07_彷彿.jpg",
+      "suggested_ally": "ally_07_彷彿.png",
+      "suggested_ally_png": "ally_07_彷彿.png"
+    },
+    {
+      "id": 8,
+      "word": "靜寂",
+      "card_image": "08_靜寂.jpg",
+      "suggested_ally": "ally_08_靜寂.png",
+      "suggested_ally_png": "ally_08_靜寂.png"
+    },
+    {
+      "id": 9,
+      "word": "密佈",
+      "card_image": "09_密佈.jpg",
+      "suggested_ally": "ally_09_密佈.png",
+      "suggested_ally_png": "ally_09_密佈.png"
+    },
+    {
+      "id": 10,
+      "word": "無處不在",
+      "card_image": "10_無處不在.jpg",
+      "suggested_ally": "ally_10_無處不在.png",
+      "suggested_ally_png": "ally_10_無處不在.png"
+    },
+    {
+      "id": 11,
+      "word": "眨眼",
+      "card_image": "11_眨眼.jpg",
+      "suggested_ally": "ally_11_眨眼.png",
+      "suggested_ally_png": "ally_11_眨眼.png"
+    },
+    {
+      "id": 12,
+      "word": "懷抱",
+      "card_image": "12_懷抱.jpg",
+      "suggested_ally": "ally_12_懷抱.png",
+      "suggested_ally_png": "ally_12_懷抱.png"
+    },
+    {
+      "id": 13,
+      "word": "嚴峻",
+      "card_image": "13_嚴峻.jpg",
+      "suggested_ally": "ally_13_嚴峻.png",
+      "suggested_ally_png": "ally_13_嚴峻.png"
+    },
+    {
+      "id": 14,
+      "word": "足智多謀",
+      "card_image": "14_足智多謀.jpg",
+      "suggested_ally": "ally_14_足智多謀.png",
+      "suggested_ally_png": "ally_14_足智多謀.png"
+    },
+    {
+      "id": 15,
+      "word": "周旋",
+      "card_image": "15_周旋.jpg",
+      "suggested_ally": "ally_15_周旋.png",
+      "suggested_ally_png": "ally_15_周旋.png"
+    },
+    {
+      "id": 16,
+      "word": "裝腔作勢",
+      "card_image": "16_裝腔作勢.jpg",
+      "suggested_ally": "ally_16_裝腔作勢.png",
+      "suggested_ally_png": "ally_16_裝腔作勢.png"
+    },
+    {
+      "id": 17,
+      "word": "完璧歸趙",
+      "card_image": "17_完璧歸趙.jpg",
+      "suggested_ally": "ally_17_完璧歸趙.png",
+      "suggested_ally_png": "ally_17_完璧歸趙.png"
+    },
+    {
+      "id": 18,
+      "word": "施詐",
+      "card_image": "18_施詐.jpg",
+      "suggested_ally": "ally_18_施詐.png",
+      "suggested_ally_png": "ally_18_施詐.png"
+    },
+    {
+      "id": 19,
+      "word": "囂張",
+      "card_image": "19_囂張.jpg",
+      "suggested_ally": "ally_19_囂張.png",
+      "suggested_ally_png": "ally_19_囂張.png"
+    },
+    {
+      "id": 20,
+      "word": "胸有成竹",
+      "card_image": "20_胸有成竹.jpg",
+      "suggested_ally": "ally_20_胸有成竹.png",
+      "suggested_ally_png": "ally_20_胸有成竹.png"
+    },
+    {
+      "id": 21,
+      "word": "食言",
+      "card_image": "21_食言.jpg",
+      "suggested_ally": "ally_21_食言.png",
+      "suggested_ally_png": "ally_21_食言.png"
+    },
+    {
+      "id": 22,
+      "word": "瑕疵",
+      "card_image": "22_瑕疵.jpg",
+      "suggested_ally": "ally_22_瑕疵.png",
+      "suggested_ally_png": "ally_22_瑕疵.png"
+    },
+    {
+      "id": 23,
+      "word": "理直氣壯",
+      "card_image": "23_理直氣壯.jpg",
+      "suggested_ally": "ally_23_理直氣壯.png",
+      "suggested_ally_png": "ally_23_理直氣壯.png"
+    },
+    {
+      "id": 24,
+      "word": "目瞪口呆",
+      "card_image": "24_目瞪口呆.jpg",
+      "suggested_ally": "ally_24_目瞪口呆.png",
+      "suggested_ally_png": "ally_24_目瞪口呆.png"
+    },
+    {
+      "id": 25,
+      "word": "絞盡腦汁",
+      "card_image": "25_絞盡腦汁.jpg",
+      "suggested_ally": "ally_25_絞盡腦汁.png",
+      "suggested_ally_png": "ally_25_絞盡腦汁.png"
+    },
+    {
+      "id": 26,
+      "word": "批評",
+      "card_image": "26_批評.jpg",
+      "suggested_ally": "ally_26_批評.png",
+      "suggested_ally_png": "ally_26_批評.png"
+    },
+    {
+      "id": 27,
+      "word": "探討",
+      "card_image": "27_探討.jpg",
+      "suggested_ally": "ally_27_探討.png",
+      "suggested_ally_png": "ally_27_探討.png"
+    },
+    {
+      "id": 28,
+      "word": "長途跋涉",
+      "card_image": "28_長途跋涉.jpg",
+      "suggested_ally": "ally_28_長途跋涉.png",
+      "suggested_ally_png": "ally_28_長途跋涉.png"
+    },
+    {
+      "id": 29,
+      "word": "荊棘",
+      "card_image": "29_荊棘.jpg",
+      "suggested_ally": "ally_29_荊棘.png",
+      "suggested_ally_png": "ally_29_荊棘.png"
+    },
+    {
+      "id": 30,
+      "word": "靈感",
+      "card_image": "30_靈感.jpg",
+      "suggested_ally": "ally_30_靈感.png",
+      "suggested_ally_png": "ally_30_靈感.png"
+    },
+    {
+      "id": 31,
+      "word": "聞名",
+      "card_image": "31_聞名.jpg",
+      "suggested_ally": "ally_31_聞名.png",
+      "suggested_ally_png": "ally_31_聞名.png"
+    },
+    {
+      "id": 32,
+      "word": "搭建",
+      "card_image": "32_搭建.jpg",
+      "suggested_ally": "ally_32_搭建.png",
+      "suggested_ally_png": "ally_32_搭建.png"
+    },
+    {
+      "id": 33,
+      "word": "領悟",
+      "card_image": "33_領悟.jpg",
+      "suggested_ally": "ally_33_領悟.png",
+      "suggested_ally_png": "ally_33_領悟.png"
+    },
+    {
+      "id": 34,
+      "word": "資產",
+      "card_image": "34_資產.jpg",
+      "suggested_ally": "ally_34_資產.png",
+      "suggested_ally_png": "ally_34_資產.png"
+    },
+    {
+      "id": 35,
+      "word": "言之有物",
+      "card_image": "35_言之有物.jpg",
+      "suggested_ally": "ally_35_言之有物.png",
+      "suggested_ally_png": "ally_35_言之有物.png"
+    },
+    {
+      "id": 36,
+      "word": "下筆成章",
+      "card_image": "36_下筆成章.jpg",
+      "suggested_ally": "ally_36_下筆成章.png",
+      "suggested_ally_png": "ally_36_下筆成章.png"
+    },
+    {
+      "id": 37,
+      "word": "丞相",
+      "card_image": "37_丞相.jpg",
+      "suggested_ally": "ally_37_丞相.png",
+      "suggested_ally_png": "ally_37_丞相.png"
+    },
+    {
+      "id": 38,
+      "word": "顧",
+      "card_image": "38_顧.jpg",
+      "suggested_ally": "ally_38_顧.png",
+      "suggested_ally_png": "ally_38_顧.png"
+    },
+    {
+      "id": 39,
+      "word": "濟",
+      "card_image": "39_濟.jpg",
+      "suggested_ally": "ally_39_濟.png",
+      "suggested_ally_png": "ally_39_濟.png"
+    },
+    {
+      "id": 40,
+      "word": "映",
+      "card_image": "40_映.jpg",
+      "suggested_ally": "ally_40_映.png",
+      "suggested_ally_png": "ally_40_映.png"
+    },
+    {
+      "id": 41,
+      "word": "春色",
+      "card_image": "41_春色.jpg",
+      "suggested_ally": "ally_41_春色.png",
+      "suggested_ally_png": "ally_41_春色.png"
+    },
+    {
+      "id": 42,
+      "word": "頻",
+      "card_image": "42_頻.jpg",
+      "suggested_ally": "ally_42_頻.png",
+      "suggested_ally_png": "ally_42_頻.png"
+    },
+    {
+      "id": 43,
+      "word": "捷",
+      "card_image": "43_捷.jpg",
+      "suggested_ally": "ally_43_捷.png",
+      "suggested_ally_png": "ally_43_捷.png"
+    },
+    {
+      "id": 44,
+      "word": "襟",
+      "card_image": "44_襟.jpg",
+      "suggested_ally": "ally_44_襟.png",
+      "suggested_ally_png": "ally_44_襟.png"
+    },
+    {
+      "id": 45,
+      "word": "大兜蟲",
+      "card_image": "card_bug_01_大兜蟲.jpg",
+      "suggested_ally": "bug_01_大兜蟲.png",
+      "bank": "bugs_new10_v1_2026-10-25"
+    },
+    {
+      "id": 46,
+      "word": "南洋大兜蟲",
+      "card_image": "card_bug_02_南洋大兜蟲.jpg",
+      "suggested_ally": "bug_02_南洋大兜蟲.png",
+      "bank": "bugs_new10_v1_2026-10-25"
+    },
+    {
+      "id": 47,
+      "word": "長頸鹿鍬形蟲",
+      "card_image": "card_bug_03_長頸鹿鍬形蟲.jpg",
+      "suggested_ally": "bug_03_長頸鹿鍬形蟲.png",
+      "bank": "bugs_new10_v1_2026-10-25"
+    },
+    {
+      "id": 48,
+      "word": "五角大兜蟲",
+      "card_image": "card_bug_04_五角大兜蟲.jpg",
+      "suggested_ally": "bug_04_五角大兜蟲.png",
+      "bank": "bugs_new10_v1_2026-10-25"
+    },
+    {
+      "id": 49,
+      "word": "螳螂",
+      "card_image": "card_bug_05_螳螂.jpg",
+      "suggested_ally": "bug_05_螳螂.png",
+      "bank": "bugs_new10_v1_2026-10-25"
+    },
+    {
+      "id": 50,
+      "word": "蜘蛛",
+      "card_image": "card_bug_06_蜘蛛.jpg",
+      "suggested_ally": "bug_06_蜘蛛.png",
+      "bank": "bugs_new10_v1_2026-10-25"
+    },
+    {
+      "id": 51,
+      "word": "巨無霸蜻蜓",
+      "card_image": "card_bug_07_巨無霸蜻蜓.jpg",
+      "suggested_ally": "bug_07_巨無霸蜻蜓.png",
+      "bank": "bugs_new10_v1_2026-10-25"
+    },
+    {
+      "id": 52,
+      "word": "戰神大兜",
+      "card_image": "card_bug_08_戰神大兜.jpg",
+      "suggested_ally": "bug_08_戰神大兜.png",
+      "bank": "bugs_new10_v1_2026-10-25"
+    },
+    {
+      "id": 53,
+      "word": "毛象兜蟲",
+      "card_image": "card_bug_09_毛象兜蟲.jpg",
+      "suggested_ally": "bug_09_毛象兜蟲.png",
+      "bank": "bugs_new10_v1_2026-10-25"
+    },
+    {
+      "id": 54,
+      "word": "獨角仙",
+      "card_image": "card_bug_10_獨角仙.jpg",
+      "suggested_ally": "bug_10_獨角仙.png",
+      "bank": "bugs_new10_v1_2026-10-25"
+    }
+  ],
+  "format": "png_transparent_grounded"
+}

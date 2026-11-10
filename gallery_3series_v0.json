@@ -1,0 +1,35 @@
+{
+  "version": "gallery_3series_v0",
+  "tabs": [
+    {
+      "id": "pinyin",
+      "label": "拼音系",
+      "source": "stage5_pinyin_v0.json",
+      "count": 16,
+      "logo": "pinyin"
+    },
+    {
+      "id": "chengyu",
+      "label": "成語系",
+      "source": "stage4_chengyu_sentences_v0.json",
+      "count": 15,
+      "logo": "chengyu"
+    },
+    {
+      "id": "ciyu",
+      "label": "詞語系",
+      "source": "deck_pool_v0.json pool id1–44",
+      "count": 44,
+      "logo": "ciyu"
+    }
+  ],
+  "rules": {
+    "card_face_pinyin": "所有圖鑑卡面顯示正確拼音（拼音系必有；成語／詞語亦要有）",
+    "stage5_combat": "仍只出漢字＋4拼音button，唔選卡"
+  },
+  "logo_style": "手繪簡單風（三系：拼音／成語／詞語；蟲為原創角色）",
+  "note_2026_10_26": "art notes: series logos only in 手繪簡單風 simple style; bugs are original designs; SAR pack pending approval",
+  "lock": "PASS LOCK 2026-10-26 — 三系logo 拼音／成語／詞語；手繪簡單風；可嵌圖庫",
+  "logo_pack": "series_logos_bc_simple_v0_2026-10-26",
+  "enable_gallery_tabs": true
+}

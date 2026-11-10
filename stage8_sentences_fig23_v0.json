@@ -1,0 +1,2398 @@
+{
+  "version": "stage8_sentence_圖二三_v0",
+  "status": "APPROVED",
+  "date": "2026-10-31",
+  "gameplay": "cloze_write_like_stage4",
+  "rules": {
+    "ui": "出句子填空（似第4關）；唔用左欄選卡做主玩法",
+    "pool": "圖二§2/4/6/7＋圖三§10 allowlist 61",
+    "blank_token": "____",
+    "art": "REUSE_EXISTING_ONLY",
+    "note": "§2–7 句來自 exam49 APPROVED；§10×3＝DRAFT 待補"
+  },
+  "count_words": 61,
+  "sentence_count": 183,
+  "sentences": [
+    {
+      "card_id": 55,
+      "word": "遺址",
+      "sentence": "參觀博物館時，導賞員帶我們看古代村落的____。",
+      "answer": "遺址",
+      "hint": "古代留下的建築物或地方",
+      "accept": [
+        "遺址",
+        "遗址"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 55,
+      "word": "遺址",
+      "sentence": "考古學家在沙漠中發現了千年古城的____。",
+      "answer": "遺址",
+      "hint": "古代留下的建築物或地方",
+      "accept": [
+        "遺址",
+        "遗址"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 55,
+      "word": "遺址",
+      "sentence": "課本插圖標示出長城關口的____位置。",
+      "answer": "遺址",
+      "hint": "古代留下的建築物或地方",
+      "accept": [
+        "遺址",
+        "遗址"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 56,
+      "word": "高聳入雲",
+      "sentence": "登上山頂遠望，那座____的摩天大樓幾乎碰到雲層。",
+      "answer": "高聳入雲",
+      "hint": "極高，好像伸進雲裏",
+      "accept": [
+        "高聳入雲",
+        "高耸入云"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 56,
+      "word": "高聳入雲",
+      "sentence": "山谷對面矗立着____的峭壁，氣勢逼人。",
+      "answer": "高聳入雲",
+      "hint": "極高，好像伸進雲裏",
+      "accept": [
+        "高聳入雲",
+        "高耸入云"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 56,
+      "word": "高聳入雲",
+      "sentence": "維港兩岸____的大廈，組成香港的天際線。",
+      "answer": "高聳入雲",
+      "hint": "極高，好像伸進雲裏",
+      "accept": [
+        "高聳入雲",
+        "高耸入云"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 57,
+      "word": "肅然起敬",
+      "sentence": "聽到消防员救人的事蹟，同學們都____。",
+      "answer": "肅然起敬",
+      "hint": "對值得敬重的人或事產生敬意",
+      "accept": [
+        "肅然起敬",
+        "肃然起敬"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 57,
+      "word": "肅然起敬",
+      "sentence": "參觀抗日紀念館後，大家對先烈____。",
+      "answer": "肅然起敬",
+      "hint": "對值得敬重的人或事產生敬意",
+      "accept": [
+        "肅然起敬",
+        "肃然起敬"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 57,
+      "word": "肅然起敬",
+      "sentence": "校長數十年默默奉獻，師生都____。",
+      "answer": "肅然起敬",
+      "hint": "對值得敬重的人或事產生敬意",
+      "accept": [
+        "肅然起敬",
+        "肃然起敬"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 58,
+      "word": "古跡",
+      "sentence": "這次旅行我們參觀了不少歷史____，例如古城牆和古塔。",
+      "answer": "古跡",
+      "hint": "古代留下的建築物或名勝",
+      "accept": [
+        "古跡",
+        "古迹",
+        "古蹟"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 58,
+      "word": "古跡",
+      "sentence": "導遊介紹這座廟宇是本地著名____。",
+      "answer": "古跡",
+      "hint": "古代留下的建築物或名勝",
+      "accept": [
+        "古跡",
+        "古迹",
+        "古蹟"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 58,
+      "word": "古跡",
+      "sentence": "保護____需要大家一起愛惜文物。",
+      "answer": "古跡",
+      "hint": "古代留下的建築物或名勝",
+      "accept": [
+        "古跡",
+        "古迹",
+        "古蹟"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 59,
+      "word": "焚毀",
+      "sentence": "大火把整座木屋____了，只剩下一片焦黑的廢墟。",
+      "answer": "焚毀",
+      "hint": "燒掉、燒毀",
+      "accept": [
+        "焚毀",
+        "焚毁"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 59,
+      "word": "焚毀",
+      "sentence": "戰火____了珍貴的古籍，令人痛心。",
+      "answer": "焚毀",
+      "hint": "燒掉、燒毀",
+      "accept": [
+        "焚毀",
+        "焚毁"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 59,
+      "word": "焚毀",
+      "sentence": "實驗不慎，化學品____了整張實驗桌。",
+      "answer": "焚毀",
+      "hint": "燒掉、燒毀",
+      "accept": [
+        "焚毀",
+        "焚毁"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 60,
+      "word": "牆壁",
+      "sentence": "美術課上，老師請我們在教室____上貼滿同學的畫作。",
+      "answer": "牆壁",
+      "hint": "房子四周直立的牆",
+      "accept": [
+        "牆壁",
+        "墙壁"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 60,
+      "word": "牆壁",
+      "sentence": "工人粉刷____，課室煥然一新。",
+      "answer": "牆壁",
+      "hint": "房子四周直立的牆",
+      "accept": [
+        "牆壁",
+        "墙壁"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 60,
+      "word": "牆壁",
+      "sentence": "家居裝修時，先量度____尺寸再選油漆。",
+      "answer": "牆壁",
+      "hint": "房子四周直立的牆",
+      "accept": [
+        "牆壁",
+        "墙壁"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 61,
+      "word": "眼簾",
+      "sentence": "推開窗門，一片開滿紫荊花的公園映入____。",
+      "answer": "眼簾",
+      "hint": "眼前所見的範圍",
+      "accept": [
+        "眼簾",
+        "眼帘"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 61,
+      "word": "眼簾",
+      "sentence": "打開窗簾，維港夜景盡入____。",
+      "answer": "眼簾",
+      "hint": "眼前所見的範圍",
+      "accept": [
+        "眼簾",
+        "眼帘"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 61,
+      "word": "眼簾",
+      "sentence": "山道轉彎處，一片梯田忽然映入____。",
+      "answer": "眼簾",
+      "hint": "眼前所見的範圍",
+      "accept": [
+        "眼簾",
+        "眼帘"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 62,
+      "word": "莊嚴",
+      "sentence": "升旗禮進行時，操場氣氛十分____，大家肅立聽國歌。",
+      "answer": "莊嚴",
+      "hint": "端莊而嚴肅",
+      "accept": [
+        "莊嚴",
+        "庄严"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 62,
+      "word": "莊嚴",
+      "sentence": "法庭氣氛____，旁聽者屏息靜聽。",
+      "answer": "莊嚴",
+      "hint": "端莊而嚴肅",
+      "accept": [
+        "莊嚴",
+        "庄严"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 62,
+      "word": "莊嚴",
+      "sentence": "紀念碑前氣氛____，眾人默哀一分鐘。",
+      "answer": "莊嚴",
+      "hint": "端莊而嚴肅",
+      "accept": [
+        "莊嚴",
+        "庄严"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 63,
+      "word": "象徵",
+      "sentence": "紅白藍膠袋常常被視為香港本地文化的一種____。",
+      "answer": "象徵",
+      "hint": "用具體事物代表抽象意義",
+      "accept": [
+        "象徵",
+        "象征"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 63,
+      "word": "象徵",
+      "sentence": "白鴿常被視為和平的____。",
+      "answer": "象徵",
+      "hint": "用具體事物代表抽象意義",
+      "accept": [
+        "象徵",
+        "象征"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 63,
+      "word": "象徵",
+      "sentence": "校徽上的書本____着求知精神。",
+      "answer": "象徵",
+      "hint": "用具體事物代表抽象意義",
+      "accept": [
+        "象徵",
+        "象征"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 64,
+      "word": "和諧",
+      "sentence": "班裏同學相處____，下課時常一起溫習和玩耍。",
+      "answer": "和諧",
+      "hint": "配合得當、和睦協調",
+      "accept": [
+        "和諧",
+        "和谐"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 64,
+      "word": "和諧",
+      "sentence": "社區鄰里關係____，大家互相幫忙。",
+      "answer": "和諧",
+      "hint": "配合得當、和睦協調",
+      "accept": [
+        "和諧",
+        "和谐"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 64,
+      "word": "和諧",
+      "sentence": "音樂與畫面____配合，短片十分動人。",
+      "answer": "和諧",
+      "hint": "配合得當、和睦協調",
+      "accept": [
+        "和諧",
+        "和谐"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 65,
+      "word": "籌劃",
+      "sentence": "班長正在____下學期的旅行路線和活動內容。",
+      "answer": "籌劃",
+      "hint": "想辦法、訂計劃",
+      "accept": [
+        "籌劃",
+        "筹划",
+        "籌畫",
+        "筹画"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 65,
+      "word": "籌劃",
+      "sentence": "學生會正____慈善步行的細節。",
+      "answer": "籌劃",
+      "hint": "想辦法、訂計劃",
+      "accept": [
+        "籌劃",
+        "筹划",
+        "籌畫",
+        "筹画"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 65,
+      "word": "籌劃",
+      "sentence": "工程師____新校舍的興建時間表。",
+      "answer": "籌劃",
+      "hint": "想辦法、訂計劃",
+      "accept": [
+        "籌劃",
+        "筹划",
+        "籌畫",
+        "筹画"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 66,
+      "word": "目睹",
+      "sentence": "我在球場邊____了整場比賽，看見隊友最後一秒入球。",
+      "answer": "目睹",
+      "hint": "親眼看見",
+      "accept": [
+        "目睹"
+      ],
+      "lesson": "第二課",
+      "variant": "A"
+    },
+    {
+      "card_id": 66,
+      "word": "目睹",
+      "sentence": "記者____了車禍現場，立刻報道。",
+      "answer": "目睹",
+      "hint": "親眼看見",
+      "accept": [
+        "目睹"
+      ],
+      "lesson": "第二課",
+      "variant": "B"
+    },
+    {
+      "card_id": 66,
+      "word": "目睹",
+      "sentence": "歷史見證人____了當年的苦難。",
+      "answer": "目睹",
+      "hint": "親眼看見",
+      "accept": [
+        "目睹"
+      ],
+      "lesson": "第二課",
+      "variant": "C"
+    },
+    {
+      "card_id": 67,
+      "word": "折磨",
+      "sentence": "連續幾晚失眠____着他，上課時總是打瞌睡。",
+      "answer": "折磨",
+      "hint": "使肉體或精神受痛苦",
+      "accept": [
+        "折磨"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 67,
+      "word": "折磨",
+      "sentence": "長期病痛____着病人，家人也很辛苦。",
+      "answer": "折磨",
+      "hint": "使肉體或精神受痛苦",
+      "accept": [
+        "折磨"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 67,
+      "word": "折磨",
+      "sentence": "失敗一次又一次____他，但他不肯放棄。",
+      "answer": "折磨",
+      "hint": "使肉體或精神受痛苦",
+      "accept": [
+        "折磨"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 68,
+      "word": "央求",
+      "sentence": "弟弟____媽媽再給他十分鐘打機，媽媽終於點頭。",
+      "answer": "央求",
+      "hint": "懇切地請求",
+      "accept": [
+        "央求"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 68,
+      "word": "央求",
+      "sentence": "她____老師寬限兩天交報告。",
+      "answer": "央求",
+      "hint": "懇切地請求",
+      "accept": [
+        "央求"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 68,
+      "word": "央求",
+      "sentence": "孩子____爸爸帶他去海洋公園。",
+      "answer": "央求",
+      "hint": "懇切地請求",
+      "accept": [
+        "央求"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 69,
+      "word": "發誓",
+      "sentence": "小明向全班____，一定會準時交齊功課。",
+      "answer": "發誓",
+      "hint": "莊嚴地表示決心或保證",
+      "accept": [
+        "發誓",
+        "发誓"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 69,
+      "word": "發誓",
+      "sentence": "選手____要為學校爭光，全力以赴。",
+      "answer": "發誓",
+      "hint": "莊嚴地表示決心或保證",
+      "accept": [
+        "發誓",
+        "发誓"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 69,
+      "word": "發誓",
+      "sentence": "他____戒掉甜食，開始健康飲食。",
+      "answer": "發誓",
+      "hint": "莊嚴地表示決心或保證",
+      "accept": [
+        "發誓",
+        "发誓"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 70,
+      "word": "時髦",
+      "sentence": "她梳了一個今年很____的髮型，同學們都稱讚好看。",
+      "answer": "時髦",
+      "hint": "合時、流行",
+      "accept": [
+        "時髦",
+        "时髦"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 70,
+      "word": "時髦",
+      "sentence": "街頭掛滿____的燈籠，迎接節日。",
+      "answer": "時髦",
+      "hint": "合時、流行",
+      "accept": [
+        "時髦",
+        "时髦"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 70,
+      "word": "時髦",
+      "sentence": "穿上____服裝出席派對，她信心滿滿。",
+      "answer": "時髦",
+      "hint": "合時、流行",
+      "accept": [
+        "時髦",
+        "时髦"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 71,
+      "word": "倒霉",
+      "sentence": "早上出門就踩到水窪，真是____透了。",
+      "answer": "倒霉",
+      "hint": "運氣差、遭遇不好的事",
+      "accept": [
+        "倒霉",
+        "倒楣"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 71,
+      "word": "倒霉",
+      "sentence": "剛出門就下雨，又沒帶傘，真____。",
+      "answer": "倒霉",
+      "hint": "運氣差、遭遇不好的事",
+      "accept": [
+        "倒霉",
+        "倒楣"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 71,
+      "word": "倒霉",
+      "sentence": "電腦死機令功課全沒了，他覺得____透頂。",
+      "answer": "倒霉",
+      "hint": "運氣差、遭遇不好的事",
+      "accept": [
+        "倒霉",
+        "倒楣"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 72,
+      "word": "惡夢",
+      "sentence": "昨晚做了一個____，醒來後還覺得心跳加速。",
+      "answer": "惡夢",
+      "hint": "可怕、不愉快的夢",
+      "accept": [
+        "惡夢",
+        "恶梦",
+        "噩夢",
+        "噩梦"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 72,
+      "word": "惡夢",
+      "sentence": "連續幾晚都做____，他決定早點睡。",
+      "answer": "惡夢",
+      "hint": "可怕、不愉快的夢",
+      "accept": [
+        "惡夢",
+        "恶梦",
+        "噩夢",
+        "噩梦"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 72,
+      "word": "惡夢",
+      "sentence": "看了恐怖片後，她整夜被____纏擾。",
+      "answer": "惡夢",
+      "hint": "可怕、不愉快的夢",
+      "accept": [
+        "惡夢",
+        "恶梦",
+        "噩夢",
+        "噩梦"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 73,
+      "word": "隨便",
+      "sentence": "書包不要____亂放，否則到時找不到筆記。",
+      "answer": "隨便",
+      "hint": "不拘束；任意",
+      "accept": [
+        "隨便",
+        "随便"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 73,
+      "word": "隨便",
+      "sentence": "答案不要____亂寫，要先想清楚。",
+      "answer": "隨便",
+      "hint": "不拘束；任意",
+      "accept": [
+        "隨便",
+        "随便"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 73,
+      "word": "隨便",
+      "sentence": "圖書館裏不可____談話，以免打擾別人。",
+      "answer": "隨便",
+      "hint": "不拘束；任意",
+      "accept": [
+        "隨便",
+        "随便"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 74,
+      "word": "處置",
+      "sentence": "老師會____那些不守秩序的同學，請他們放學留下。",
+      "answer": "處置",
+      "hint": "安排處理；懲辦",
+      "accept": [
+        "處置",
+        "处置"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 74,
+      "word": "處置",
+      "sentence": "學校會妥善____拾獲的失物。",
+      "answer": "處置",
+      "hint": "安排處理；懲辦",
+      "accept": [
+        "處置",
+        "处置"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 74,
+      "word": "處置",
+      "sentence": "法官依法____這宗案件。",
+      "answer": "處置",
+      "hint": "安排處理；懲辦",
+      "accept": [
+        "處置",
+        "处置"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 75,
+      "word": "扮演",
+      "sentence": "戲劇課上，阿華____一位勇敢的偵探，演得十分投入。",
+      "answer": "扮演",
+      "hint": "化裝成某個角色演出",
+      "accept": [
+        "扮演"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 75,
+      "word": "扮演",
+      "sentence": "話劇中她____慈祥的奶奶，十分傳神。",
+      "answer": "扮演",
+      "hint": "化裝成某個角色演出",
+      "accept": [
+        "扮演"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 75,
+      "word": "扮演",
+      "sentence": "動畫裏主角____超人，飛天遁地。",
+      "answer": "扮演",
+      "hint": "化裝成某個角色演出",
+      "accept": [
+        "扮演"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 76,
+      "word": "熟練",
+      "sentence": "經過反覆練習，她打字已經十分____，幾乎不用看鍵盤。",
+      "answer": "熟練",
+      "hint": "技術純熟、有經驗",
+      "accept": [
+        "熟練",
+        "熟练"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 76,
+      "word": "熟練",
+      "sentence": "救生員泳術____，能迅速救人上岸。",
+      "answer": "熟練",
+      "hint": "技術純熟、有經驗",
+      "accept": [
+        "熟練",
+        "熟练"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 76,
+      "word": "熟練",
+      "sentence": "經過半年訓練，他開車已經很____。",
+      "answer": "熟練",
+      "hint": "技術純熟、有經驗",
+      "accept": [
+        "熟練",
+        "熟练"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 77,
+      "word": "優秀",
+      "sentence": "這份科學報告內容充實，被老師評為____作品。",
+      "answer": "優秀",
+      "hint": "非常好；出眾",
+      "accept": [
+        "優秀",
+        "优秀"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 77,
+      "word": "優秀",
+      "sentence": "辯論隊表現____，晉身決賽。",
+      "answer": "優秀",
+      "hint": "非常好；出眾",
+      "accept": [
+        "優秀",
+        "优秀"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 77,
+      "word": "優秀",
+      "sentence": "這位____運動員為港爭光。",
+      "answer": "優秀",
+      "hint": "非常好；出眾",
+      "accept": [
+        "優秀",
+        "优秀"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 78,
+      "word": "顧客",
+      "sentence": "便利店職員微笑着向____介紹新出的零食。",
+      "answer": "顧客",
+      "hint": "商店或服務業的客人",
+      "accept": [
+        "顧客",
+        "顾客"
+      ],
+      "lesson": "第四課",
+      "variant": "A"
+    },
+    {
+      "card_id": 78,
+      "word": "顧客",
+      "sentence": "餐廳侍應親切招待每位____。",
+      "answer": "顧客",
+      "hint": "商店或服務業的客人",
+      "accept": [
+        "顧客",
+        "顾客"
+      ],
+      "lesson": "第四課",
+      "variant": "B"
+    },
+    {
+      "card_id": 78,
+      "word": "顧客",
+      "sentence": "商場節日優惠吸引大批____。",
+      "answer": "顧客",
+      "hint": "商店或服務業的客人",
+      "accept": [
+        "顧客",
+        "顾客"
+      ],
+      "lesson": "第四課",
+      "variant": "C"
+    },
+    {
+      "card_id": 79,
+      "word": "尋幽探秘",
+      "sentence": "週末我們走進郊野公園____，沿途發現隱蔽的小瀑布。",
+      "answer": "尋幽探秘",
+      "hint": "尋找幽靜之處、探索奧秘",
+      "accept": [
+        "尋幽探秘",
+        "寻幽探秘"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 79,
+      "word": "尋幽探秘",
+      "sentence": "假期我們到西貢____，享受大自然。",
+      "answer": "尋幽探秘",
+      "hint": "尋找幽靜之處、探索奧秘",
+      "accept": [
+        "尋幽探秘",
+        "寻幽探秘"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 79,
+      "word": "尋幽探秘",
+      "sentence": "作家喜歡____，從旅途中搜集寫作素材。",
+      "answer": "尋幽探秘",
+      "hint": "尋找幽靜之處、探索奧秘",
+      "accept": [
+        "尋幽探秘",
+        "寻幽探秘"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 80,
+      "word": "生生不息",
+      "sentence": "春雨過後，山坡上的野花____，一年比一年更茂盛。",
+      "answer": "生生不息",
+      "hint": "不斷生長、永不停止",
+      "accept": [
+        "生生不息"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 80,
+      "word": "生生不息",
+      "sentence": "海洋生態____，珊瑚礁孕育無數生物。",
+      "answer": "生生不息",
+      "hint": "不斷生長、永不停止",
+      "accept": [
+        "生生不息"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 80,
+      "word": "生生不息",
+      "sentence": "傳統文化____，一代傳一代。",
+      "answer": "生生不息",
+      "hint": "不斷生長、永不停止",
+      "accept": [
+        "生生不息"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 81,
+      "word": "錦上添花",
+      "sentence": "比賽已經拿了冠軍，再獲最佳創意獎，真是____。",
+      "answer": "錦上添花",
+      "hint": "好上加好；使更完美",
+      "accept": [
+        "錦上添花",
+        "锦上添花"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 81,
+      "word": "錦上添花",
+      "sentence": "考試滿分後再獲獎學金，可謂____。",
+      "answer": "錦上添花",
+      "hint": "好上加好；使更完美",
+      "accept": [
+        "錦上添花",
+        "锦上添花"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 81,
+      "word": "錦上添花",
+      "sentence": "新品上市已大賣，再得設計獎真是____。",
+      "answer": "錦上添花",
+      "hint": "好上加好；使更完美",
+      "accept": [
+        "錦上添花",
+        "锦上添花"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 82,
+      "word": "樸實",
+      "sentence": "爺爺為人____，從不講排場，卻很受街坊尊敬。",
+      "answer": "樸實",
+      "hint": "質樸誠實、不浮華",
+      "accept": [
+        "樸實",
+        "朴实"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 82,
+      "word": "樸實",
+      "sentence": "他的文筆____自然，沒有矯揉造作。",
+      "answer": "樸實",
+      "hint": "質樸誠實、不浮華",
+      "accept": [
+        "樸實",
+        "朴实"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 82,
+      "word": "樸實",
+      "sentence": "鄉村生活____簡樸，令人嚮往。",
+      "answer": "樸實",
+      "hint": "質樸誠實、不浮華",
+      "accept": [
+        "樸實",
+        "朴实"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 83,
+      "word": "休憩",
+      "sentence": "走了半天山路，大家坐在涼亭____一會兒再出發。",
+      "answer": "休憩",
+      "hint": "休息",
+      "accept": [
+        "休憩"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 83,
+      "word": "休憩",
+      "sentence": "長途飛行後，旅客在機場____片刻。",
+      "answer": "休憩",
+      "hint": "休息",
+      "accept": [
+        "休憩"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 83,
+      "word": "休憩",
+      "sentence": "登山中途找處陰涼地方____。",
+      "answer": "休憩",
+      "hint": "休息",
+      "accept": [
+        "休憩"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 84,
+      "word": "佈局",
+      "sentence": "班主任重新調整課室____，把討論區移到窗邊。",
+      "answer": "佈局",
+      "hint": "對事物的全面安排、布置",
+      "accept": [
+        "佈局",
+        "布局"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 84,
+      "word": "佈局",
+      "sentence": "棋盤上的____決定勝負關鍵。",
+      "answer": "佈局",
+      "hint": "對事物的全面安排、布置",
+      "accept": [
+        "佈局",
+        "布局"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 84,
+      "word": "佈局",
+      "sentence": "展覽廳____巧妙，參觀路線清晰。",
+      "answer": "佈局",
+      "hint": "對事物的全面安排、布置",
+      "accept": [
+        "佈局",
+        "布局"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 85,
+      "word": "環繞",
+      "sentence": "小山丘被茂密的樹木____，遠看像一座綠色的島。",
+      "answer": "環繞",
+      "hint": "圍繞、包圍",
+      "accept": [
+        "環繞",
+        "环绕"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 85,
+      "word": "環繞",
+      "sentence": "月亮被雲層____，一會兒又露出來。",
+      "answer": "環繞",
+      "hint": "圍繞、包圍",
+      "accept": [
+        "環繞",
+        "环绕"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 85,
+      "word": "環繞",
+      "sentence": "古堡四面____着護城河。",
+      "answer": "環繞",
+      "hint": "圍繞、包圍",
+      "accept": [
+        "環繞",
+        "环绕"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 86,
+      "word": "圓滿",
+      "sentence": "畢業典禮在溫馨的氣氛中____結束，家長們都鼓掌。",
+      "answer": "圓滿",
+      "hint": "完滿、沒有缺憾",
+      "accept": [
+        "圓滿",
+        "圆满"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 86,
+      "word": "圓滿",
+      "sentence": "義工活動____結束，大家收隊回家。",
+      "answer": "圓滿",
+      "hint": "完滿、沒有缺憾",
+      "accept": [
+        "圓滿",
+        "圆满"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 86,
+      "word": "圓滿",
+      "sentence": "工程____竣工，居民遷入新居。",
+      "answer": "圓滿",
+      "hint": "完滿、沒有缺憾",
+      "accept": [
+        "圓滿",
+        "圆满"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 87,
+      "word": "體現",
+      "sentence": "這幅壁畫____了社區互助的精神，令街坊很感動。",
+      "answer": "體現",
+      "hint": "具體表現出來",
+      "accept": [
+        "體現",
+        "体现"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 87,
+      "word": "體現",
+      "sentence": "這項政策____了政府關懷基層的決心。",
+      "answer": "體現",
+      "hint": "具體表現出來",
+      "accept": [
+        "體現",
+        "体现"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 87,
+      "word": "體現",
+      "sentence": "運動會____了同學團結拼搏的精神。",
+      "answer": "體現",
+      "hint": "具體表現出來",
+      "accept": [
+        "體現",
+        "体现"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 88,
+      "word": "採用",
+      "sentence": "學校決定____電子課本，減少紙本印刷。",
+      "answer": "採用",
+      "hint": "選取使用",
+      "accept": [
+        "採用",
+        "采用"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 88,
+      "word": "採用",
+      "sentence": "老師____分組討論的教學方法。",
+      "answer": "採用",
+      "hint": "選取使用",
+      "accept": [
+        "採用",
+        "采用"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 88,
+      "word": "採用",
+      "sentence": "公司決定____環保包裝材料。",
+      "answer": "採用",
+      "hint": "選取使用",
+      "accept": [
+        "採用",
+        "采用"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 89,
+      "word": "展翅",
+      "sentence": "雛鳥終於____飛離巢穴，在天空中練習飛翔。",
+      "answer": "展翅",
+      "hint": "張開翅膀",
+      "accept": [
+        "展翅"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 89,
+      "word": "展翅",
+      "sentence": "老鷹____盤旋，俯瞰大地。",
+      "answer": "展翅",
+      "hint": "張開翅膀",
+      "accept": [
+        "展翅"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 89,
+      "word": "展翅",
+      "sentence": "夢想像小鸟，終有一天會____高飛。",
+      "answer": "展翅",
+      "hint": "張開翅膀",
+      "accept": [
+        "展翅"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 90,
+      "word": "清幽",
+      "sentence": "山間小徑環境____，只有鳥鳴和水聲相伴。",
+      "answer": "清幽",
+      "hint": "風景秀麗而幽靜",
+      "accept": [
+        "清幽"
+      ],
+      "lesson": "第六課",
+      "variant": "A"
+    },
+    {
+      "card_id": 90,
+      "word": "清幽",
+      "sentence": "竹林深處環境____，適合靜思。",
+      "answer": "清幽",
+      "hint": "風景秀麗而幽靜",
+      "accept": [
+        "清幽"
+      ],
+      "lesson": "第六課",
+      "variant": "B"
+    },
+    {
+      "card_id": 90,
+      "word": "清幽",
+      "sentence": "古寺藏在____山谷中，香火不斷。",
+      "answer": "清幽",
+      "hint": "風景秀麗而幽靜",
+      "accept": [
+        "清幽"
+      ],
+      "lesson": "第六課",
+      "variant": "C"
+    },
+    {
+      "card_id": 91,
+      "word": "莫名其妙",
+      "sentence": "他忽然把書包倒空，大家覺得____，完全不明白原因。",
+      "answer": "莫名其妙",
+      "hint": "奇怪得使人不明白",
+      "accept": [
+        "莫名其妙"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 91,
+      "word": "莫名其妙",
+      "sentence": "他忽然大笑，令人感到____。",
+      "answer": "莫名其妙",
+      "hint": "奇怪得使人不明白",
+      "accept": [
+        "莫名其妙"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 91,
+      "word": "莫名其妙",
+      "sentence": "試卷少了兩頁，大家____地互望。",
+      "answer": "莫名其妙",
+      "hint": "奇怪得使人不明白",
+      "accept": [
+        "莫名其妙"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 92,
+      "word": "遭遇",
+      "sentence": "探險隊在密林中____暴雨，只好暫時躲進山洞。",
+      "answer": "遭遇",
+      "hint": "碰上、遇到（多指不幸）",
+      "accept": [
+        "遭遇"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 92,
+      "word": "遭遇",
+      "sentence": "船隊在海上____風暴，顛簸整夜。",
+      "answer": "遭遇",
+      "hint": "碰上、遇到（多指不幸）",
+      "accept": [
+        "遭遇"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 92,
+      "word": "遭遇",
+      "sentence": "主角____不公對待，仍堅持正義。",
+      "answer": "遭遇",
+      "hint": "碰上、遇到（多指不幸）",
+      "accept": [
+        "遭遇"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 93,
+      "word": "仇怨",
+      "sentence": "兩家人放下多年____，終於握手言和。",
+      "answer": "仇怨",
+      "hint": "仇恨和怨恨",
+      "accept": [
+        "仇怨"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 93,
+      "word": "仇怨",
+      "sentence": "放下____才能重建友誼。",
+      "answer": "仇怨",
+      "hint": "仇恨和怨恨",
+      "accept": [
+        "仇怨"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 93,
+      "word": "仇怨",
+      "sentence": "戰爭帶來的____，幾代人也難消除。",
+      "answer": "仇怨",
+      "hint": "仇恨和怨恨",
+      "accept": [
+        "仇怨"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 94,
+      "word": "欺騙",
+      "sentence": "不要____同學說功課已交，這樣不誠實。",
+      "answer": "欺騙",
+      "hint": "用虛假手段使人上當",
+      "accept": [
+        "欺騙",
+        "欺骗"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 94,
+      "word": "欺騙",
+      "sentence": "廣告不可____消費者，要如實說明。",
+      "answer": "欺騙",
+      "hint": "用虛假手段使人上當",
+      "accept": [
+        "欺騙",
+        "欺骗"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 94,
+      "word": "欺騙",
+      "sentence": "他用假成績單____父母，後來被揭穿。",
+      "answer": "欺騙",
+      "hint": "用虛假手段使人上當",
+      "accept": [
+        "欺騙",
+        "欺骗"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 95,
+      "word": "前因後果",
+      "sentence": "老師請我們把整件事故的____寫清楚，方便調查。",
+      "answer": "前因後果",
+      "hint": "事情的起因和結果",
+      "accept": [
+        "前因後果",
+        "前因后果"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 95,
+      "word": "前因後果",
+      "sentence": "記者把事故的____整理成專題報道。",
+      "answer": "前因後果",
+      "hint": "事情的起因和結果",
+      "accept": [
+        "前因後果",
+        "前因后果"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 95,
+      "word": "前因後果",
+      "sentence": "弄清____，才能避免重蹈覆轍。",
+      "answer": "前因後果",
+      "hint": "事情的起因和結果",
+      "accept": [
+        "前因後果",
+        "前因后果"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 96,
+      "word": "抵受",
+      "sentence": "他咬緊牙關____劇痛，堅持跑完運動會八百米。",
+      "answer": "抵受",
+      "hint": "承受、經受壓力或痛苦",
+      "accept": [
+        "抵受"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 96,
+      "word": "抵受",
+      "sentence": "登山者____嚴寒，終於登上峰頂。",
+      "answer": "抵受",
+      "hint": "承受、經受壓力或痛苦",
+      "accept": [
+        "抵受"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 96,
+      "word": "抵受",
+      "sentence": "病人____治療的副作用，逐漸康復。",
+      "answer": "抵受",
+      "hint": "承受、經受壓力或痛苦",
+      "accept": [
+        "抵受"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 97,
+      "word": "困苦",
+      "sentence": "故事主角經歷種種____，最後靠努力改變命運。",
+      "answer": "困苦",
+      "hint": "艱難痛苦",
+      "accept": [
+        "困苦"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 97,
+      "word": "困苦",
+      "sentence": "戰亂令人民飽受____。",
+      "answer": "困苦",
+      "hint": "艱難痛苦",
+      "accept": [
+        "困苦"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 97,
+      "word": "困苦",
+      "sentence": "即使生活____，他也從不怨天尤人。",
+      "answer": "困苦",
+      "hint": "艱難痛苦",
+      "accept": [
+        "困苦"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 98,
+      "word": "同情",
+      "sentence": "看到流浪貓挨餓，她心生____，立刻買貓糧餵牠。",
+      "answer": "同情",
+      "hint": "對別人的遭遇感到憐憫關心",
+      "accept": [
+        "同情"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 98,
+      "word": "同情",
+      "sentence": "旁人____他的處境，主動伸出援手。",
+      "answer": "同情",
+      "hint": "對別人的遭遇感到憐憫關心",
+      "accept": [
+        "同情"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 98,
+      "word": "同情",
+      "sentence": "小說描寫主角對弱者的____之心。",
+      "answer": "同情",
+      "hint": "對別人的遭遇感到憐憫關心",
+      "accept": [
+        "同情"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 99,
+      "word": "麻煩",
+      "sentence": "忘記帶學生證會造成不少____，進校門都要登記。",
+      "answer": "麻煩",
+      "hint": "費事；使人費事或煩擾",
+      "accept": [
+        "麻煩",
+        "麻烦"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 99,
+      "word": "麻煩",
+      "sentence": "請不要給別人添____，東西用完放回原處。",
+      "answer": "麻煩",
+      "hint": "費事；使人費事或煩擾",
+      "accept": [
+        "麻煩",
+        "麻烦"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 99,
+      "word": "麻煩",
+      "sentence": "電腦中毒帶來許多____，檔案全亂了。",
+      "answer": "麻煩",
+      "hint": "費事；使人費事或煩擾",
+      "accept": [
+        "麻煩",
+        "麻烦"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 100,
+      "word": "拯救",
+      "sentence": "消防員及時趕到，____了被困在升降機裏的居民。",
+      "answer": "拯救",
+      "hint": "救助、使脫離危險",
+      "accept": [
+        "拯救"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 100,
+      "word": "拯救",
+      "sentence": "義工組織致力____流浪動物。",
+      "answer": "拯救",
+      "hint": "救助、使脫離危險",
+      "accept": [
+        "拯救"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 100,
+      "word": "拯救",
+      "sentence": "醫生用藥____病人於危難。",
+      "answer": "拯救",
+      "hint": "救助、使脫離危險",
+      "accept": [
+        "拯救"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 101,
+      "word": "順利",
+      "sentence": "今次考試溫習充足，答卷過程很____，不用慌張。",
+      "answer": "順利",
+      "hint": "做事沒有阻礙或挫折",
+      "accept": [
+        "順利",
+        "顺利"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 101,
+      "word": "順利",
+      "sentence": "簽證申請很____，一個星期就批出。",
+      "answer": "順利",
+      "hint": "做事沒有阻礙或挫折",
+      "accept": [
+        "順利",
+        "顺利"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 101,
+      "word": "順利",
+      "sentence": "彩排____完成，正式演出更有信心。",
+      "answer": "順利",
+      "hint": "做事沒有阻礙或挫折",
+      "accept": [
+        "順利",
+        "顺利"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 102,
+      "word": "遞",
+      "sentence": "請把這本字典____給後排的同學，他要用。",
+      "answer": "遞",
+      "hint": "傳送；交給",
+      "accept": [
+        "遞",
+        "递"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 102,
+      "word": "遞",
+      "sentence": "請把牛奶____給妹妹。",
+      "answer": "遞",
+      "hint": "傳送；交給",
+      "accept": [
+        "遞",
+        "递"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 102,
+      "word": "遞",
+      "sentence": "裁判把哨子____給副裁判。",
+      "answer": "遞",
+      "hint": "傳送；交給",
+      "accept": [
+        "遞",
+        "递"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 103,
+      "word": "安樂",
+      "sentence": "退休後，外公過着平靜____的日子，每天散步喝茶。",
+      "answer": "安樂",
+      "hint": "安寧快樂",
+      "accept": [
+        "安樂",
+        "安乐"
+      ],
+      "lesson": "第七課",
+      "variant": "A"
+    },
+    {
+      "card_id": 103,
+      "word": "安樂",
+      "sentence": "小猫蜷在沙發上，一副____的樣子。",
+      "answer": "安樂",
+      "hint": "安寧快樂",
+      "accept": [
+        "安樂",
+        "安乐"
+      ],
+      "lesson": "第七課",
+      "variant": "B"
+    },
+    {
+      "card_id": 103,
+      "word": "安樂",
+      "sentence": "平日勤奮，假日才能過得____自在。",
+      "answer": "安樂",
+      "hint": "安寧快樂",
+      "accept": [
+        "安樂",
+        "安乐"
+      ],
+      "lesson": "第七課",
+      "variant": "C"
+    },
+    {
+      "card_id": 1,
+      "word": "納涼",
+      "sentence": "夏天傍晚，大家坐在樹下____聊天。",
+      "answer": "納涼",
+      "hint": "在陰涼的地方乘涼。",
+      "accept": [
+        "納涼",
+        "納凉",
+        "纳凉"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 1,
+      "word": "納涼",
+      "sentence": "公園涼亭是鄰居們____的好地方。",
+      "answer": "納涼",
+      "hint": "在陰涼的地方乘涼。",
+      "accept": [
+        "納涼",
+        "納凉",
+        "纳凉"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 1,
+      "word": "納涼",
+      "sentence": "打開窗戶吹風，感覺比開冷氣還適合____。",
+      "answer": "納涼",
+      "hint": "在陰涼的地方乘涼。",
+      "accept": [
+        "納涼",
+        "納凉",
+        "纳凉"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 2,
+      "word": "密密麻麻",
+      "sentence": "黑板上寫滿了____的筆記。",
+      "answer": "密密麻麻",
+      "hint": "又多又密，看不清楚。",
+      "accept": [
+        "密密麻麻"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 2,
+      "word": "密密麻麻",
+      "sentence": "草地上____地長着野花。",
+      "answer": "密密麻麻",
+      "hint": "又多又密，看不清楚。",
+      "accept": [
+        "密密麻麻"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 2,
+      "word": "密密麻麻",
+      "sentence": "夜晚天空____都是星星。",
+      "answer": "密密麻麻",
+      "hint": "又多又密，看不清楚。",
+      "accept": [
+        "密密麻麻"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 3,
+      "word": "半明半昧",
+      "sentence": "走廊的燈壞了，整條路顯得____。",
+      "answer": "半明半昧",
+      "hint": "光線半明半暗，看不真切。",
+      "accept": [
+        "半明半昧",
+        "半明半暗"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 3,
+      "word": "半明半昧",
+      "sentence": "黎明時分，窗外一片____。",
+      "answer": "半明半昧",
+      "hint": "光線半明半暗，看不真切。",
+      "accept": [
+        "半明半昧",
+        "半明半暗"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 3,
+      "word": "半明半昧",
+      "sentence": "山洞入口光線____，要小心腳步。",
+      "answer": "半明半昧",
+      "hint": "光線半明半暗，看不真切。",
+      "accept": [
+        "半明半昧",
+        "半明半暗"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 4,
+      "word": "搖搖欲墜",
+      "sentence": "颱風過後，那棵老樹已經____。",
+      "answer": "搖搖欲墜",
+      "hint": "搖晃得快要倒下。",
+      "accept": [
+        "搖搖欲墜",
+        "摇摇欲坠"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 4,
+      "word": "搖搖欲墜",
+      "sentence": "危樓的外牆看起來____。",
+      "answer": "搖搖欲墜",
+      "hint": "搖晃得快要倒下。",
+      "accept": [
+        "搖搖欲墜",
+        "摇摇欲坠"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 4,
+      "word": "搖搖欲墜",
+      "sentence": "架子上的花瓶被碰得____。",
+      "answer": "搖搖欲墜",
+      "hint": "搖晃得快要倒下。",
+      "accept": [
+        "搖搖欲墜",
+        "摇摇欲坠"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 5,
+      "word": "模糊",
+      "sentence": "沒戴眼鏡時，远处的字都變得____。",
+      "answer": "模糊",
+      "hint": "不清楚、不鮮明。",
+      "accept": [
+        "模糊"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 5,
+      "word": "模糊",
+      "sentence": "雨水打在玻璃上，街景變得____。",
+      "answer": "模糊",
+      "hint": "不清楚、不鮮明。",
+      "accept": [
+        "模糊"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 5,
+      "word": "模糊",
+      "sentence": "回憶久了，當年的臉孔有點____。",
+      "answer": "模糊",
+      "hint": "不清楚、不鮮明。",
+      "accept": [
+        "模糊"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 6,
+      "word": "沉睡",
+      "sentence": "寶寶終於____了，房間很安靜。",
+      "answer": "沉睡",
+      "hint": "睡得很沉。",
+      "accept": [
+        "沉睡"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 6,
+      "word": "沉睡",
+      "sentence": "冬眠的熊在洞裏____。",
+      "answer": "沉睡",
+      "hint": "睡得很沉。",
+      "accept": [
+        "沉睡"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 6,
+      "word": "沉睡",
+      "sentence": "一路顛簸，他卻在車上____。",
+      "answer": "沉睡",
+      "hint": "睡得很沉。",
+      "accept": [
+        "沉睡"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 7,
+      "word": "彷彿",
+      "sentence": "海面平靜，____一面鏡子。",
+      "answer": "彷彿",
+      "hint": "好像。",
+      "accept": [
+        "彷彿",
+        "仿佛"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 7,
+      "word": "彷彿",
+      "sentence": "聽完故事，我____自己也在現場。",
+      "answer": "彷彿",
+      "hint": "好像。",
+      "accept": [
+        "彷彿",
+        "仿佛"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 7,
+      "word": "彷彿",
+      "sentence": "晨霧中的山____飄在雲上。",
+      "answer": "彷彿",
+      "hint": "好像。",
+      "accept": [
+        "彷彿",
+        "仿佛"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 8,
+      "word": "靜寂",
+      "sentence": "深夜的校園一片____。",
+      "answer": "靜寂",
+      "hint": "非常安靜。",
+      "accept": [
+        "靜寂",
+        "静寂"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 8,
+      "word": "靜寂",
+      "sentence": "雪後的山林特別____。",
+      "answer": "靜寂",
+      "hint": "非常安靜。",
+      "accept": [
+        "靜寂",
+        "静寂"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 8,
+      "word": "靜寂",
+      "sentence": "關掉電視後，客廳忽然____下來。",
+      "answer": "靜寂",
+      "hint": "非常安靜。",
+      "accept": [
+        "靜寂",
+        "静寂"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 9,
+      "word": "密佈",
+      "sentence": "天空____着烏雲，快要下雨。",
+      "answer": "密佈",
+      "hint": "密密地布滿。",
+      "accept": [
+        "密佈",
+        "密布"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 9,
+      "word": "密佈",
+      "sentence": "牆上____了爬山虎。",
+      "answer": "密佈",
+      "hint": "密密地布滿。",
+      "accept": [
+        "密佈",
+        "密布"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 9,
+      "word": "密佈",
+      "sentence": "夜空____繁星。",
+      "answer": "密佈",
+      "hint": "密密地布滿。",
+      "accept": [
+        "密佈",
+        "密布"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 10,
+      "word": "無處不在",
+      "sentence": "網絡時代，資訊幾乎____。",
+      "answer": "無處不在",
+      "hint": "到處都有。",
+      "accept": [
+        "無處不在",
+        "无处不在"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 10,
+      "word": "無處不在",
+      "sentence": "春天的花粉好像____。",
+      "answer": "無處不在",
+      "hint": "到處都有。",
+      "accept": [
+        "無處不在",
+        "无处不在"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 10,
+      "word": "無處不在",
+      "sentence": "關懷可以____，只要你願意付出。",
+      "answer": "無處不在",
+      "hint": "到處都有。",
+      "accept": [
+        "無處不在",
+        "无处不在"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 11,
+      "word": "眨眼",
+      "sentence": "星星在夜空中____。",
+      "answer": "眨眼",
+      "hint": "眼睛開合一下；極短時間。",
+      "accept": [
+        "眨眼"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 11,
+      "word": "眨眼",
+      "sentence": "他對我____示意別出聲。",
+      "answer": "眨眼",
+      "hint": "眼睛開合一下；極短時間。",
+      "accept": [
+        "眨眼"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 11,
+      "word": "眨眼",
+      "sentence": "____之間，公車已經開走了。",
+      "answer": "眨眼",
+      "hint": "眼睛開合一下；極短時間。",
+      "accept": [
+        "眨眼"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 12,
+      "word": "懷抱",
+      "sentence": "媽媽把孩子擁進____。",
+      "answer": "懷抱",
+      "hint": "抱在懷裏；胸懷。",
+      "accept": [
+        "懷抱",
+        "怀抱"
+      ],
+      "lesson": "第十課",
+      "variant": "A",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 12,
+      "word": "懷抱",
+      "sentence": "他懷着遠大的____走上舞台。",
+      "answer": "懷抱",
+      "hint": "抱在懷裏；胸懷。",
+      "accept": [
+        "懷抱",
+        "怀抱"
+      ],
+      "lesson": "第十課",
+      "variant": "B",
+      "status": "DRAFT"
+    },
+    {
+      "card_id": 12,
+      "word": "懷抱",
+      "sentence": "小狗跳進主人的____撒嬌。",
+      "answer": "懷抱",
+      "hint": "抱在懷裏；胸懷。",
+      "accept": [
+        "懷抱",
+        "怀抱"
+      ],
+      "lesson": "第十課",
+      "variant": "C",
+      "status": "DRAFT"
+    }
+  ],
+  "meta": {
+    "status": "APPROVED",
+    "approved": "approved 2026-10-31 ~17:49 HK — 做到呢部份完",
+    "note": "§2–7 exam49 + §10×3；S4／S8 藏卡／藏 ANS 跟 KNIFE④⑤；ytdbc77 ASCII alias fig23"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "version": "stage4_chengyu_sentences_v0",
+  "gameplay": "cloze_pick_chengyu_card_then_write",
+  "rules": {
+    "pool": "15_chengyu_period_exam",
+    "blank_token": "____",
+    "flow": "sentence_blank → pick_chengyu_card → write_idiom → deploy",
+    "min_sentences_per_card": 1
+  },
+  "count": 15,
+  "sentences": [
+    {
+      "card_id": 1,
+      "word": "鵬程萬里",
+      "sentence": "畢業後他立志遠行，前途____。",
+      "answer": "鵬程萬里",
+      "hint": "前途遠大",
+      "meaning": "前途遠大，像大鵬飛萬里。",
+      "accept": [
+        "鵬程萬里"
+      ],
+      "image": "01_鵬程萬里.jpg",
+      "image_path": "chengyu_cards/01_鵬程萬里.jpg",
+      "char_count": 4,
+      "pinyin": "péng chéng wàn lǐ"
+    },
+    {
+      "card_id": 2,
+      "word": "眾目睽睽",
+      "sentence": "小偷在____之下被當場捉住。",
+      "answer": "眾目睽睽",
+      "hint": "大家睜眼看著",
+      "meaning": "大家都睜大眼睛看著。",
+      "accept": [
+        "眾目睽睽"
+      ],
+      "image": "02_眾目睽睽.jpg",
+      "image_path": "chengyu_cards/02_眾目睽睽.jpg",
+      "char_count": 4,
+      "pinyin": "zhòng mù kuí kuí"
+    },
+    {
+      "card_id": 3,
+      "word": "刮目相看",
+      "sentence": "他今年進步很大，令人____。",
+      "answer": "刮目相看",
+      "hint": "另眼相看",
+      "meaning": "用新的眼光看待，另眼相看。",
+      "accept": [
+        "刮目相看"
+      ],
+      "image": "03_刮目相看.jpg",
+      "image_path": "chengyu_cards/03_刮目相看.jpg",
+      "char_count": 4,
+      "pinyin": "guā mù xiāng kàn"
+    },
+    {
+      "card_id": 4,
+      "word": "囫圇吞棗",
+      "sentence": "讀課文不要____，要弄懂意思。",
+      "answer": "囫圇吞棗",
+      "hint": "不求甚解",
+      "meaning": "不加咀嚼地吞下；比喻不求甚解。",
+      "accept": [
+        "囫圇吞棗"
+      ],
+      "image": "04_囫圇吞棗.jpg",
+      "image_path": "chengyu_cards/04_囫圇吞棗.jpg",
+      "char_count": 4,
+      "pinyin": "hú lún tūn zǎo"
+    },
+    {
+      "card_id": 5,
+      "word": "如火如荼",
+      "sentence": "運動會上氣氛____，掌聲不斷。",
+      "answer": "如火如荼",
+      "hint": "場面熱烈",
+      "meaning": "形容氣勢旺盛或場面熱烈。",
+      "accept": [
+        "如火如荼"
+      ],
+      "image": "05_如火如荼.jpg",
+      "image_path": "chengyu_cards/05_如火如荼.jpg",
+      "char_count": 4,
+      "pinyin": "rú huǒ rú tú"
+    },
+    {
+      "card_id": 6,
+      "word": "塞翁失馬",
+      "sentence": "這次比賽落敗，或許是____，日後另有機會。",
+      "answer": "塞翁失馬",
+      "hint": "禍福難料",
+      "meaning": "壞事也可能變成好事；禍福難料。",
+      "accept": [
+        "塞翁失馬"
+      ],
+      "image": "06_塞翁失馬.jpg",
+      "image_path": "chengyu_cards/06_塞翁失馬.jpg",
+      "char_count": 4,
+      "pinyin": "sài wēng shī mǎ"
+    },
+    {
+      "card_id": 7,
+      "word": "口蜜腹劍",
+      "sentence": "提防____的人，別只聽好話。",
+      "answer": "口蜜腹劍",
+      "hint": "嘴甜心毒",
+      "meaning": "嘴上說得好聽，心裏懷著害人的主意。",
+      "accept": [
+        "口蜜腹劍"
+      ],
+      "image": "07_口蜜腹劍.jpg",
+      "image_path": "chengyu_cards/07_口蜜腹劍.jpg",
+      "char_count": 4,
+      "pinyin": "kǒu mì fù jiàn"
+    },
+    {
+      "card_id": 8,
+      "word": "唾手可得",
+      "sentence": "只要用心溫習，好成績____。",
+      "answer": "唾手可得",
+      "hint": "很容易得到",
+      "meaning": "很容易就能得到。",
+      "accept": [
+        "唾手可得"
+      ],
+      "image": "08_唾手可得.jpg",
+      "image_path": "chengyu_cards/08_唾手可得.jpg",
+      "char_count": 4,
+      "pinyin": "tuò shǒu kě dé"
+    },
+    {
+      "card_id": 9,
+      "word": "沾沾自喜",
+      "sentence": "考到高分不要____，還要繼續努力。",
+      "answer": "沾沾自喜",
+      "hint": "得意忘形",
+      "meaning": "自以為很好而得意。",
+      "accept": [
+        "沾沾自喜"
+      ],
+      "image": "09_沾沾自喜.jpg",
+      "image_path": "chengyu_cards/09_沾沾自喜.jpg",
+      "char_count": 4,
+      "pinyin": "zhān zhān zì xǐ"
+    },
+    {
+      "card_id": 10,
+      "word": "拍案叫絕",
+      "sentence": "這幅畫太精彩了，大家____。",
+      "answer": "拍案叫絕",
+      "hint": "極為讚賞",
+      "meaning": "拍桌子叫好，極為讚賞。",
+      "accept": [
+        "拍案叫絕"
+      ],
+      "image": "10_拍案叫絕.jpg",
+      "image_path": "chengyu_cards/10_拍案叫絕.jpg",
+      "char_count": 4,
+      "pinyin": "pāi àn jiào jué"
+    },
+    {
+      "card_id": 11,
+      "word": "螳臂當車",
+      "sentence": "以卵擊石、____，結果可想而知。",
+      "answer": "螳臂當車",
+      "hint": "不自量力",
+      "meaning": "力量太小，硬要做辦不到的事。",
+      "accept": [
+        "螳臂當車"
+      ],
+      "image": "11_螳臂當車.jpg",
+      "image_path": "chengyu_cards/11_螳臂當車.jpg",
+      "char_count": 4,
+      "pinyin": "táng bì dāng chē"
+    },
+    {
+      "card_id": 12,
+      "word": "琳琅滿目",
+      "sentence": "展覽館裏展品____，令人目不暇給。",
+      "answer": "琳琅滿目",
+      "hint": "美好東西很多",
+      "meaning": "美好的東西很多，看不過來。",
+      "accept": [
+        "琳琅滿目"
+      ],
+      "image": "12_琳琅滿目.jpg",
+      "image_path": "chengyu_cards/12_琳琅滿目.jpg",
+      "char_count": 4,
+      "pinyin": "lín láng mǎn mù"
+    },
+    {
+      "card_id": 13,
+      "word": "明察秋毫",
+      "sentence": "偵探____，一下子找出線索。",
+      "answer": "明察秋毫",
+      "hint": "連細微都看清",
+      "meaning": "眼光敏銳，連極細微的地方都能看清。",
+      "accept": [
+        "明察秋毫"
+      ],
+      "image": "13_明察秋毫.jpg",
+      "image_path": "chengyu_cards/13_明察秋毫.jpg",
+      "char_count": 4,
+      "pinyin": "míng chá qiū háo"
+    },
+    {
+      "card_id": 14,
+      "word": "杞人憂天",
+      "sentence": "整天擔心天會塌下來，簡直是____。",
+      "answer": "杞人憂天",
+      "hint": "多餘的憂慮",
+      "meaning": "不必要的憂慮。",
+      "accept": [
+        "杞人憂天"
+      ],
+      "image": "14_杞人憂天.jpg",
+      "image_path": "chengyu_cards/14_杞人憂天.jpg",
+      "char_count": 4,
+      "pinyin": "qǐ rén yōu tiān"
+    },
+    {
+      "card_id": 15,
+      "word": "高談闊論",
+      "sentence": "會議上他____，卻提不出實際辦法。",
+      "answer": "高談闊論",
+      "hint": "空談闊論",
+      "meaning": "大發議論，空談闊論。",
+      "accept": [
+        "高談闊論"
+      ],
+      "image": "15_高談闊論.jpg",
+      "image_path": "chengyu_cards/15_高談闊論.jpg",
+      "char_count": 4,
+      "pinyin": "gāo tán kuò lùn"
+    }
+  ],
+  "pinyin_note": "zh-CN syllable pinyin added 2026-10-27 knife TTS"
+}

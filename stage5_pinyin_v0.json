@@ -1,0 +1,452 @@
+{
+  "version": "stage5_pinyin_v0",
+  "gameplay": {
+    "stage": 5,
+    "name": "拼音四選一出擊",
+    "flow": [
+      "畫面出漢字詞語（唔出正確拼音）",
+      "下方 4 個拼音 button（隨機排列）",
+      "撳啱 → 派出該詞對應角式（角式手抬大拼音）",
+      "撳錯 → 打回／SFX（跟 Stage3 嚴謹）",
+      "作戰唔選卡、唔用手寫；只揀拼音"
+    ],
+    "no_card_pick": true,
+    "buttons": 4
+  },
+  "rules": {
+    "combat_pick_excludes_gacha": true,
+    "pool_ids": "s5_1–s5_16（本關獨立詞庫，唔混入 id1–54）",
+    "style_lock": "JP-04B＋MN-03；卡同角式相關造型；拼音牌要大"
+  },
+  "source": "School 2026–2027 漢語拼音工作紙（一）§三＋續頁§四§五",
+  "count": 16,
+  "words": [
+    {
+      "id": 1,
+      "word": "展翅",
+      "pinyin": "zhǎn chì",
+      "meaning": "張開翅膀",
+      "source": "拼音工作紙（一）三1",
+      "options": [
+        "zhǎn chì",
+        "zǎn cì",
+        "zhàn qì",
+        "zhān chī"
+      ],
+      "unit_pose": "鍬形蟲張開雙翅起飛；雙手高舉大字拼音牌 zhǎn chì",
+      "answer": "zhǎn chì",
+      "image": "01_展翅.jpg",
+      "ally": "ally_pinyin_01_展翅.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "展翅",
+        "pinyin": "zhǎn chì",
+        "meaning": "張開翅膀",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 2,
+      "word": "發誓",
+      "pinyin": "fā shì",
+      "meaning": "鄭重地說出保證",
+      "source": "拼音工作紙（一）三2",
+      "options": [
+        "fā shì",
+        "huā sì",
+        "fá shī",
+        "fā sì"
+      ],
+      "unit_pose": "舉手發誓姿勢；高舉拼音牌 fā shì",
+      "answer": "fā shì",
+      "image": "02_發誓.jpg",
+      "ally": "ally_pinyin_02_發誓.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "發誓",
+        "pinyin": "fā shì",
+        "meaning": "鄭重地說出保證",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 3,
+      "word": "籌劃",
+      "pinyin": "chóu huà",
+      "meaning": "計劃；安排",
+      "source": "拼音工作紙（一）三3",
+      "options": [
+        "chóu huà",
+        "zóu huà",
+        "chōu huá",
+        "cóu huà"
+      ],
+      "unit_pose": "拿地圖／計劃板籌劃；高舉拼音牌 chóu huà",
+      "answer": "chóu huà",
+      "image": "03_籌劃.jpg",
+      "ally": "ally_pinyin_03_籌劃.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "籌劃",
+        "pinyin": "chóu huà",
+        "meaning": "計劃；安排",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 4,
+      "word": "隨便",
+      "pinyin": "suí biàn",
+      "meaning": "怎麼都可以；不拘束",
+      "source": "拼音工作紙（一）三4",
+      "options": [
+        "suí biàn",
+        "shuí piàn",
+        "suī biàn",
+        "suí piàn"
+      ],
+      "unit_pose": "輕鬆攤手隨便樣；高舉拼音牌 suí biàn",
+      "answer": "suí biàn",
+      "image": "04_隨便.jpg",
+      "ally": "ally_pinyin_04_隨便.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "隨便",
+        "pinyin": "suí biàn",
+        "meaning": "怎麼都可以；不拘束",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 5,
+      "word": "目睹",
+      "pinyin": "mù dǔ",
+      "meaning": "親眼看見",
+      "source": "拼音工作紙（一）三5",
+      "options": [
+        "mù dǔ",
+        "mù tǔ",
+        "mò dǔ",
+        "nù dǔ"
+      ],
+      "unit_pose": "瞪大眼睛目擊；高舉拼音牌 mù dǔ",
+      "answer": "mù dǔ",
+      "image": "05_目睹.jpg",
+      "ally": "ally_pinyin_05_目睹.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "目睹",
+        "pinyin": "mù dǔ",
+        "meaning": "親眼看見",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 6,
+      "word": "樸實",
+      "pinyin": "pǔ shí",
+      "meaning": "樸素誠實",
+      "source": "拼音工作紙（一）三6",
+      "options": [
+        "pǔ shí",
+        "bú shí",
+        "pǔ sí",
+        "pù shī"
+      ],
+      "unit_pose": "樸素穩重站姿；高舉拼音牌 pǔ shí",
+      "answer": "pǔ shí",
+      "image": "06_樸實.jpg",
+      "ally": "ally_pinyin_06_樸實.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "樸實",
+        "pinyin": "pǔ shí",
+        "meaning": "樸素誠實",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 7,
+      "word": "遺址",
+      "pinyin": "yí zhǐ",
+      "meaning": "古代留下的地址／遺跡",
+      "source": "拼音工作紙四五4.1",
+      "options": [
+        "yí zhǐ",
+        "yí zǐ",
+        "yì zhǐ",
+        "ní zhǐ"
+      ],
+      "unit_pose": "考古／廢墟旁站立；高舉拼音牌 yí zhǐ",
+      "answer": "yí zhǐ",
+      "image": "07_遺址.jpg",
+      "ally": "ally_pinyin_07_遺址.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "遺址",
+        "pinyin": "yí zhǐ",
+        "meaning": "古代留下的地址／遺跡",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 8,
+      "word": "理髮",
+      "pinyin": "lǐ fà",
+      "meaning": "剪頭髮",
+      "source": "拼音工作紙四五4.2",
+      "options": [
+        "lǐ fà",
+        "nǐ fà",
+        "lǐ huà",
+        "lí fǎ"
+      ],
+      "unit_pose": "拿剪刀理髮造型；高舉拼音牌 lǐ fà",
+      "answer": "lǐ fà",
+      "image": "08_理髮.jpg",
+      "ally": "ally_pinyin_08_理髮.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "理髮",
+        "pinyin": "lǐ fà",
+        "meaning": "剪頭髮",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 9,
+      "word": "扮演",
+      "pinyin": "bàn yǎn",
+      "meaning": "裝成某個角色演出",
+      "source": "拼音工作紙四五4.3",
+      "options": [
+        "bàn yǎn",
+        "pàn yǎn",
+        "bàn yàn",
+        "bǎn yǎn"
+      ],
+      "unit_pose": "舞台面具／演戲；高舉拼音牌 bàn yǎn",
+      "answer": "bàn yǎn",
+      "image": "09_扮演.jpg",
+      "ally": "ally_pinyin_09_扮演.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "扮演",
+        "pinyin": "bàn yǎn",
+        "meaning": "裝成某個角色演出",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 10,
+      "word": "象徵",
+      "pinyin": "xiàng zhēng",
+      "meaning": "用具體事物表示抽象意思",
+      "source": "拼音工作紙四五4.4",
+      "options": [
+        "xiàng zhēng",
+        "jiàng zhēng",
+        "xiàng zēng",
+        "xiǎng zhēng"
+      ],
+      "unit_pose": "舉象徵旗／徽章；高舉拼音牌 xiàng zhēng",
+      "answer": "xiàng zhēng",
+      "image": "10_象徵.jpg",
+      "ally": "ally_pinyin_10_象徵.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "象徵",
+        "pinyin": "xiàng zhēng",
+        "meaning": "用具體事物表示抽象意思",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 11,
+      "word": "翹首",
+      "pinyin": "qiáo shǒu",
+      "meaning": "抬起頭來望",
+      "source": "拼音工作紙四五4.5",
+      "options": [
+        "qiáo shǒu",
+        "ciáo shǒu",
+        "qiào shǒu",
+        "qiáo sǒu"
+      ],
+      "unit_pose": "抬頭遠望；高舉拼音牌 qiáo shǒu",
+      "answer": "qiáo shǒu",
+      "image": "11_翹首.jpg",
+      "ally": "ally_pinyin_11_翹首.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "翹首",
+        "pinyin": "qiáo shǒu",
+        "meaning": "抬起頭來望",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 12,
+      "word": "膽小",
+      "pinyin": "dǎn xiǎo",
+      "meaning": "勇氣不足；害怕",
+      "source": "拼音工作紙四五4.6",
+      "options": [
+        "dǎn xiǎo",
+        "tǎn xiǎo",
+        "dǎn sǎo",
+        "dàn xiǎo"
+      ],
+      "unit_pose": "嚇得發抖／躲；高舉拼音牌 dǎn xiǎo",
+      "answer": "dǎn xiǎo",
+      "image": "12_膽小.jpg",
+      "ally": "ally_pinyin_12_膽小.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "膽小",
+        "pinyin": "dǎn xiǎo",
+        "meaning": "勇氣不足；害怕",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 13,
+      "word": "高聳入雲",
+      "pinyin": "gāo sǒng rù yún",
+      "meaning": "高高地直立，伸進雲裏",
+      "source": "拼音工作紙四五5.1",
+      "options": [
+        "gāo sǒng rù yún",
+        "gāo sǒng rù yíng",
+        "kāo sǒng rù yún",
+        "gāo zǒng rù yún"
+      ],
+      "unit_pose": "像高塔／山峰伸入雲；高舉拼音牌 gāo sǒng rù yún（字要大）",
+      "answer": "gāo sǒng rù yún",
+      "image": "13_高聳入雲.jpg",
+      "ally": "ally_pinyin_13_高聳入雲.png",
+      "char_count": 4,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "高聳入雲",
+        "pinyin": "gāo sǒng rù yún",
+        "meaning": "高高地直立，伸進雲裏",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 14,
+      "word": "顧客",
+      "pinyin": "gù kè",
+      "meaning": "來買東西的人",
+      "source": "拼音工作紙四五5.2",
+      "options": [
+        "gù kè",
+        "gù gè",
+        "kù kè",
+        "gǔ kè"
+      ],
+      "unit_pose": "提購物袋顧客樣；高舉拼音牌 gù kè",
+      "answer": "gù kè",
+      "image": "14_顧客.jpg",
+      "ally": "ally_pinyin_14_顧客.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "顧客",
+        "pinyin": "gù kè",
+        "meaning": "來買東西的人",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 15,
+      "word": "肅然起敬",
+      "pinyin": "sù rán qǐ jìng",
+      "meaning": "忽然產生敬佩的心情",
+      "source": "拼音工作紙四五5.3",
+      "options": [
+        "sù rán qǐ jìng",
+        "sù rán qǐ jìn",
+        "shù rán qǐ jìng",
+        "sù lán qǐ jìng"
+      ],
+      "unit_pose": "鞠躬敬禮肅穆；高舉拼音牌 sù rán qǐ jìng（字要大）",
+      "answer": "sù rán qǐ jìng",
+      "image": "15_肅然起敬.jpg",
+      "ally": "ally_pinyin_15_肅然起敬.png",
+      "char_count": 4,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "肅然起敬",
+        "pinyin": "sù rán qǐ jìng",
+        "meaning": "忽然產生敬佩的心情",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 16,
+      "word": "優秀",
+      "pinyin": "yōu xiù",
+      "meaning": "非常好",
+      "source": "拼音工作紙四五5.4",
+      "options": [
+        "yōu xiù",
+        "yōu xiū",
+        "yòu xiù",
+        "yōu qiù"
+      ],
+      "unit_pose": "拿金牌／星星優秀樣；高舉拼音牌 yōu xiù",
+      "answer": "yōu xiù",
+      "image": "16_優秀.jpg",
+      "ally": "ally_pinyin_16_優秀.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "card_face": {
+        "hanzi": "優秀",
+        "pinyin": "yōu xiù",
+        "meaning": "非常好",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    }
+  ],
+  "gallery_series": "pinyin",
+  "knife_2026_10_26": {
+    "card_shows_pinyin": true,
+    "pinyin_logo": true,
+    "gallery_tabs": [
+      "pinyin",
+      "chengyu",
+      "ciyu"
+    ],
+    "combat_still_hanzi_plus_4_buttons": true
+  }
+}

@@ -1,0 +1,1051 @@
+{
+  "version": "dictation_l246710_v0",
+  "title": "默書關詞表·圖一 §2/4/6/7/10",
+  "status": "DRAFT",
+  "date": "2026-10-31",
+  "source": "圖一",
+  "count": 60,
+  "play": "無卡選；只播讀音；寫詞；啱＝出角式",
+  "clar": [
+    "卡／角式全部 REUSE 現有 bank——唔新做，只選返",
+    "§10 用 vocab id1–12 卡／角式（半明半昧 對 id3 半明半暗 圖）",
+    "§7 默書無前因後果；造句有",
+    "live 暫 keep ytdbc69；唔自行 keep"
+  ],
+  "words": [
+    {
+      "id": 56,
+      "word": "高聳入雲",
+      "lesson": "第二課",
+      "pinyin": "gāo sǒng rù yún",
+      "accept": [
+        "高聳入雲",
+        "高耸入云"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "形容極高，好像伸進雲裏。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 56
+    },
+    {
+      "id": 61,
+      "word": "眼簾",
+      "lesson": "第二課",
+      "pinyin": "yǎn lián",
+      "accept": [
+        "眼簾",
+        "眼帘"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "眼前所見的範圍（文學用法）。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 61
+    },
+    {
+      "id": 66,
+      "word": "目睹",
+      "lesson": "第二課",
+      "pinyin": "mù dǔ",
+      "accept": [
+        "目睹"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "親眼看見。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 66
+    },
+    {
+      "id": 57,
+      "word": "肅然起敬",
+      "lesson": "第二課",
+      "pinyin": "sù rán qǐ jìng",
+      "accept": [
+        "肅然起敬",
+        "肃然起敬"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "見到值得敬重的人或事物而產生敬意。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 57
+    },
+    {
+      "id": 62,
+      "word": "莊嚴",
+      "lesson": "第二課",
+      "pinyin": "zhuāng yán",
+      "accept": [
+        "莊嚴",
+        "庄严"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "端莊而嚴肅。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 62
+    },
+    {
+      "id": 55,
+      "word": "遺址",
+      "lesson": "第二課",
+      "pinyin": "yí zhǐ",
+      "accept": [
+        "遺址",
+        "遗址"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "古代遺留下來的建築物或地方。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 55
+    },
+    {
+      "id": 58,
+      "word": "古跡",
+      "lesson": "第二課",
+      "pinyin": "gǔ jì",
+      "accept": [
+        "古跡",
+        "古迹",
+        "古蹟"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "古代留下的建築物或名勝。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 58
+    },
+    {
+      "id": 63,
+      "word": "象徵",
+      "lesson": "第二課",
+      "pinyin": "xiàng zhēng",
+      "accept": [
+        "象徵",
+        "象征"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "用具體事物代表抽象意義。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 63
+    },
+    {
+      "id": 60,
+      "word": "牆壁",
+      "lesson": "第二課",
+      "pinyin": "qiáng bì",
+      "accept": [
+        "牆壁",
+        "墙壁"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "房子四周直立的牆。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 60
+    },
+    {
+      "id": 59,
+      "word": "焚毀",
+      "lesson": "第二課",
+      "pinyin": "fén huǐ",
+      "accept": [
+        "焚毀",
+        "焚毁"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "燒掉、燒毀。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 59
+    },
+    {
+      "id": 64,
+      "word": "和諧",
+      "lesson": "第二課",
+      "pinyin": "hé xié",
+      "accept": [
+        "和諧",
+        "和谐"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "配合得當、和睦協調。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 64
+    },
+    {
+      "id": 65,
+      "word": "籌劃",
+      "lesson": "第二課",
+      "pinyin": "chóu huà",
+      "accept": [
+        "籌劃",
+        "筹划",
+        "籌畫",
+        "筹画"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "想辦法、訂計劃。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 65
+    },
+    {
+      "id": 68,
+      "word": "央求",
+      "lesson": "第四課",
+      "pinyin": "yāng qiú",
+      "accept": [
+        "央求"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "懇切地請求。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 68
+    },
+    {
+      "id": 73,
+      "word": "隨便",
+      "lesson": "第四課",
+      "pinyin": "suí biàn",
+      "accept": [
+        "隨便",
+        "随便"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "不拘束；任意。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 73
+    },
+    {
+      "id": 78,
+      "word": "顧客",
+      "lesson": "第四課",
+      "pinyin": "gù kè",
+      "accept": [
+        "顧客",
+        "顾客"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "商店或服務業的客人。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 78
+    },
+    {
+      "id": 69,
+      "word": "發誓",
+      "lesson": "第四課",
+      "pinyin": "fā shì",
+      "accept": [
+        "發誓",
+        "发誓"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "莊嚴地表示決心或保證。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 69
+    },
+    {
+      "id": 74,
+      "word": "處置",
+      "lesson": "第四課",
+      "pinyin": "chǔ zhì",
+      "accept": [
+        "處置",
+        "处置"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "安排處理；懲辦。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 74
+    },
+    {
+      "id": 67,
+      "word": "折磨",
+      "lesson": "第四課",
+      "pinyin": "zhé mó",
+      "accept": [
+        "折磨"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "使在肉體或精神上受痛苦。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 67
+    },
+    {
+      "id": 70,
+      "word": "時髦",
+      "lesson": "第四課",
+      "pinyin": "shí máo",
+      "accept": [
+        "時髦",
+        "时髦"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "合時、流行。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 70
+    },
+    {
+      "id": 75,
+      "word": "扮演",
+      "lesson": "第四課",
+      "pinyin": "bàn yǎn",
+      "accept": [
+        "扮演"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "化裝成某個角色演出。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 75
+    },
+    {
+      "id": 72,
+      "word": "惡夢",
+      "lesson": "第四課",
+      "pinyin": "è mèng",
+      "accept": [
+        "惡夢",
+        "恶梦",
+        "噩夢",
+        "噩梦"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "可怕、不愉快的夢。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 72
+    },
+    {
+      "id": 71,
+      "word": "倒霉",
+      "lesson": "第四課",
+      "pinyin": "dǎo méi",
+      "accept": [
+        "倒霉",
+        "倒楣"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "遭遇不好的事情；運氣差。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 71
+    },
+    {
+      "id": 76,
+      "word": "熟練",
+      "lesson": "第四課",
+      "pinyin": "shú liàn",
+      "accept": [
+        "熟練",
+        "熟练"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "技術純熟、有經驗。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 76
+    },
+    {
+      "id": 77,
+      "word": "優秀",
+      "lesson": "第四課",
+      "pinyin": "yōu xiù",
+      "accept": [
+        "優秀",
+        "优秀"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "非常好；出眾。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 77
+    },
+    {
+      "id": 80,
+      "word": "生生不息",
+      "lesson": "第六課",
+      "pinyin": "shēng shēng bù xī",
+      "accept": [
+        "生生不息"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "不斷生長、永不停止。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 80
+    },
+    {
+      "id": 85,
+      "word": "環繞",
+      "lesson": "第六課",
+      "pinyin": "huán rào",
+      "accept": [
+        "環繞",
+        "环绕"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "圍繞、包圍。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 85
+    },
+    {
+      "id": 90,
+      "word": "清幽",
+      "lesson": "第六課",
+      "pinyin": "qīng yōu",
+      "accept": [
+        "清幽"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "風景秀麗而幽靜。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 90
+    },
+    {
+      "id": 81,
+      "word": "錦上添花",
+      "lesson": "第六課",
+      "pinyin": "jǐn shàng tiān huā",
+      "accept": [
+        "錦上添花",
+        "锦上添花"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "好上加好；使更完美。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 81
+    },
+    {
+      "id": 86,
+      "word": "圓滿",
+      "lesson": "第六課",
+      "pinyin": "yuán mǎn",
+      "accept": [
+        "圓滿",
+        "圆满"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "完滿、沒有缺憾。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 86
+    },
+    {
+      "id": 79,
+      "word": "尋幽探祕",
+      "lesson": "第六課",
+      "pinyin": "xún yōu tàn mì",
+      "accept": [
+        "尋幽探祕",
+        "尋幽探秘",
+        "寻幽探秘",
+        "寻幽探祕"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "尋找幽靜之處、探索奧秘。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 79
+    },
+    {
+      "id": 82,
+      "word": "樸實",
+      "lesson": "第六課",
+      "pinyin": "pǔ shí",
+      "accept": [
+        "樸實",
+        "朴实"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "質樸誠實、不浮華。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 82
+    },
+    {
+      "id": 87,
+      "word": "體現",
+      "lesson": "第六課",
+      "pinyin": "tǐ xiàn",
+      "accept": [
+        "體現",
+        "体现"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "具體表現出來。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 87
+    },
+    {
+      "id": 84,
+      "word": "佈局",
+      "lesson": "第六課",
+      "pinyin": "bù jú",
+      "accept": [
+        "佈局",
+        "布局"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "對事物的全面安排、布置。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 84
+    },
+    {
+      "id": 83,
+      "word": "休憩",
+      "lesson": "第六課",
+      "pinyin": "xiū qì",
+      "accept": [
+        "休憩"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "休息。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 83
+    },
+    {
+      "id": 88,
+      "word": "採用",
+      "lesson": "第六課",
+      "pinyin": "cǎi yòng",
+      "accept": [
+        "採用",
+        "采用"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "選取使用。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 88
+    },
+    {
+      "id": 89,
+      "word": "展翅",
+      "lesson": "第六課",
+      "pinyin": "zhǎn chì",
+      "accept": [
+        "展翅"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "張開翅膀。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 89
+    },
+    {
+      "id": 92,
+      "word": "遭遇",
+      "lesson": "第七課",
+      "pinyin": "zāo yù",
+      "accept": [
+        "遭遇"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "碰上、遇到（多指不幸）。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 92
+    },
+    {
+      "id": 97,
+      "word": "困苦",
+      "lesson": "第七課",
+      "pinyin": "kùn kǔ",
+      "accept": [
+        "困苦"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "艱難痛苦。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 97
+    },
+    {
+      "id": 102,
+      "word": "遞",
+      "lesson": "第七課",
+      "pinyin": "dì",
+      "accept": [
+        "遞",
+        "递"
+      ],
+      "char_count": 1,
+      "atk": 8,
+      "hp": 22,
+      "power_tier": "1字",
+      "meaning": "傳送；交給。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 102
+    },
+    {
+      "id": 93,
+      "word": "仇怨",
+      "lesson": "第七課",
+      "pinyin": "chóu yuàn",
+      "accept": [
+        "仇怨"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "仇恨和怨恨。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 93
+    },
+    {
+      "id": 98,
+      "word": "同情",
+      "lesson": "第七課",
+      "pinyin": "tóng qíng",
+      "accept": [
+        "同情"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "對別人的遭遇感到憐憫關心。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 98
+    },
+    {
+      "id": 103,
+      "word": "安樂",
+      "lesson": "第七課",
+      "pinyin": "ān lè",
+      "accept": [
+        "安樂",
+        "安乐"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "安寧快樂。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 103
+    },
+    {
+      "id": 94,
+      "word": "欺騙",
+      "lesson": "第七課",
+      "pinyin": "qī piàn",
+      "accept": [
+        "欺騙",
+        "欺骗"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "用虛假手段使人上當。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 94
+    },
+    {
+      "id": 99,
+      "word": "麻煩",
+      "lesson": "第七課",
+      "pinyin": "má fan",
+      "accept": [
+        "麻煩",
+        "麻烦"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "費事；使人費事或煩擾。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 99
+    },
+    {
+      "id": 91,
+      "word": "莫名其妙",
+      "lesson": "第七課",
+      "pinyin": "mò míng qí miào",
+      "accept": [
+        "莫名其妙"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "事情很奇怪，使人不明白。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 91
+    },
+    {
+      "id": 101,
+      "word": "順利",
+      "lesson": "第七課",
+      "pinyin": "shùn lì",
+      "accept": [
+        "順利",
+        "顺利"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "做事沒有阻礙或挫折。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 101
+    },
+    {
+      "id": 100,
+      "word": "拯救",
+      "lesson": "第七課",
+      "pinyin": "zhěng jiù",
+      "accept": [
+        "拯救"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "救助、使脫離危險。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 100
+    },
+    {
+      "id": 96,
+      "word": "抵受",
+      "lesson": "第七課",
+      "pinyin": "dǐ shòu",
+      "accept": [
+        "抵受"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "承受、經受（壓力或痛苦）。",
+      "art": "REUSE_EXISTING",
+      "reuse_card_id": 96
+    },
+    {
+      "id": 2,
+      "word": "密密麻麻",
+      "lesson": "第十課",
+      "pinyin": "mì mì má má",
+      "accept": [
+        "密密麻麻"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "又多又密，看不清楚。",
+      "reuse_card_id": 2,
+      "image": "02_密密麻麻.jpg",
+      "asset_word": "密密麻麻",
+      "art": "REUSE_EXISTING"
+    },
+    {
+      "id": 7,
+      "word": "彷彿",
+      "lesson": "第十課",
+      "pinyin": "fǎng fú",
+      "accept": [
+        "彷彿",
+        "仿佛"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "好像。",
+      "reuse_card_id": 7,
+      "image": "07_彷彿.jpg",
+      "asset_word": "彷彿",
+      "art": "REUSE_EXISTING"
+    },
+    {
+      "id": 12,
+      "word": "懷抱",
+      "lesson": "第十課",
+      "pinyin": "huái bào",
+      "accept": [
+        "懷抱",
+        "怀抱"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "抱在懷裏；胸懷。",
+      "reuse_card_id": 12,
+      "image": "12_懷抱.jpg",
+      "asset_word": "懷抱",
+      "art": "REUSE_EXISTING"
+    },
+    {
+      "id": 3,
+      "word": "半明半昧",
+      "lesson": "第十課",
+      "pinyin": "bàn míng bàn mèi",
+      "accept": [
+        "半明半昧",
+        "半明半暗"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "光線半明半暗，看不真切。",
+      "reuse_card_id": 3,
+      "image": "03_半明半暗.jpg",
+      "asset_word": "半明半暗",
+      "art": "REUSE_EXISTING"
+    },
+    {
+      "id": 8,
+      "word": "靜寂",
+      "lesson": "第十課",
+      "pinyin": "jìng jì",
+      "accept": [
+        "靜寂",
+        "静寂"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "非常安靜。",
+      "reuse_card_id": 8,
+      "image": "08_靜寂.jpg",
+      "asset_word": "靜寂",
+      "art": "REUSE_EXISTING"
+    },
+    {
+      "id": 1,
+      "word": "納涼",
+      "lesson": "第十課",
+      "pinyin": "nà liáng",
+      "accept": [
+        "納涼",
+        "納凉",
+        "纳凉"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "在陰涼的地方乘涼。",
+      "reuse_card_id": 1,
+      "image": "01_納涼.jpg",
+      "asset_word": "納涼",
+      "art": "REUSE_EXISTING"
+    },
+    {
+      "id": 4,
+      "word": "搖搖欲墜",
+      "lesson": "第十課",
+      "pinyin": "yáo yáo yù zhuì",
+      "accept": [
+        "搖搖欲墜",
+        "摇摇欲坠"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "搖晃得快要倒下。",
+      "reuse_card_id": 4,
+      "image": "04_搖搖欲墜.jpg",
+      "asset_word": "搖搖欲墜",
+      "art": "REUSE_EXISTING"
+    },
+    {
+      "id": 9,
+      "word": "密佈",
+      "lesson": "第十課",
+      "pinyin": "mì bù",
+      "accept": [
+        "密佈",
+        "密布"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "密密地布滿。",
+      "reuse_card_id": 9,
+      "image": "09_密佈.jpg",
+      "asset_word": "密佈",
+      "art": "REUSE_EXISTING"
+    },
+    {
+      "id": 6,
+      "word": "沉睡",
+      "lesson": "第十課",
+      "pinyin": "chén shuì",
+      "accept": [
+        "沉睡"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "睡得很沉。",
+      "reuse_card_id": 6,
+      "image": "06_沉睡.jpg",
+      "asset_word": "沉睡",
+      "art": "REUSE_EXISTING"
+    },
+    {
+      "id": 5,
+      "word": "模糊",
+      "lesson": "第十課",
+      "pinyin": "mó hú",
+      "accept": [
+        "模糊"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "不清楚、不鮮明。",
+      "reuse_card_id": 5,
+      "image": "05_模糊.jpg",
+      "asset_word": "模糊",
+      "art": "REUSE_EXISTING"
+    },
+    {
+      "id": 10,
+      "word": "無處不在",
+      "lesson": "第十課",
+      "pinyin": "wú chù bù zài",
+      "accept": [
+        "無處不在",
+        "无处不在"
+      ],
+      "char_count": 4,
+      "atk": 24,
+      "hp": 38,
+      "power_tier": "4字",
+      "meaning": "到處都有。",
+      "reuse_card_id": 10,
+      "image": "10_無處不在.jpg",
+      "asset_word": "無處不在",
+      "art": "REUSE_EXISTING"
+    },
+    {
+      "id": 11,
+      "word": "眨眼",
+      "lesson": "第十課",
+      "pinyin": "zhǎ yǎn",
+      "accept": [
+        "眨眼"
+      ],
+      "char_count": 2,
+      "atk": 14,
+      "hp": 28,
+      "power_tier": "2字",
+      "meaning": "眼睛開合一下；極短時間。",
+      "reuse_card_id": 11,
+      "image": "11_眨眼.jpg",
+      "asset_word": "眨眼",
+      "art": "REUSE_EXISTING"
+    }
+  ],
+  "art_policy": "REUSE_EXISTING_ONLY"
+}
