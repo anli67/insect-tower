@@ -1,4 +1,5 @@
-/* 蟲蟲 詞語塔防 · dual-tower · dock LAYOUT · ?v=ytdbc92
+/* 蟲蟲 詞語塔防 · dual-tower · dock LAYOUT · ?v=ytdbc93
+   ytdbc93: iPad Pencil／Scribble 寫字手感（S7／S11／S12 紙加大、write-long、唔亂 blur）；底 soft ytdbc92；唔改玩法／詞庫；唔 promote
    ytdbc92: S5 拼音 Wave 2 入池 id 17–30（14 卡＋14 角式）；底 soft ytdbc91；唔改 S7 默書；唔 promote
    ytdbc91: S7 默書開題讀普通話（Google zh-CN）＋audio unlock harden；底 soft ytdbc90；唔 promote
    ytdbc90: Mandarin via Google zh-CN audio（繁→簡）主路徑；Web Speech whitelist fallback；底 soft ytdbc89；唔 promote
@@ -160,7 +161,8 @@
   const MID_BOSS_UNIT_W = Math.round(BOSS_UNIT_W * 0.72); /* ~158 */
   const BOSS_TOWER_DMG = 22; /* if boss reaches player tower */
   const BOSS_COMBO_CHIP = 40; /* unused after ult rewrite; keep for safety */
-  const V = "ytdbc92";
+  const V = "ytdbc93";
+  /* ytdbc93: iPad Pencil／Scribble 寫字手感；底 ytdbc92；唔改玩法／詞庫／拼音；唔 promote */
   /* ytdbc91: S7 默書開題讀普通話（Google zh-CN）＋unlock harden；底 ytdbc90；唔 promote */
   /* ytdbc90: Google zh-CN audio TTS primary；Web Speech whitelist fallback */
   /* ytdbc87 soft: NIT A–D 默書圖卡＋圖庫 lifa／fanxing＋還原 cards／towers；底 ytdbc86；唔 promote */
@@ -1772,6 +1774,13 @@
     dictationReplayWired = true;
     const replay = (ev) => {
       if (!isDictationStage()) return;
+      /* ytdbc93: 唔讓再聽手勢誤食寫字紙上嘅 Pencil 筆畫 */
+      if (ev && ev.target && el.answer) {
+        const tgt = ev.target;
+        if (tgt === el.answer || (typeof el.answer.contains === "function" && el.answer.contains(tgt))) return;
+        const wrap = document.getElementById("paper-wrap") || document.getElementById("write-dock");
+        if (wrap && typeof wrap.contains === "function" && wrap.contains(tgt)) return;
+      }
       const word = currentDictationSpeakWord();
       if (!word) return;
       try {
@@ -2318,10 +2327,13 @@
 
   function syncWritePadLayout() {
     if (!el.app) return;
+    /* ytdbc93: S11／S12 默書都要 write-long（原本只得 4／7／8，紙偏短） */
     const long =
       stageMode === 4 ||
       stageMode === 7 ||
       stageMode === 8 ||
+      stageMode === 11 ||
+      stageMode === 12 ||
       ((stageMode === 3 || stageMode === 5) && !!selectedTip);
     el.app.classList.toggle("write-long", long);
     el.app.classList.toggle("has-tip", !!selectedTip);
@@ -4033,6 +4045,33 @@
   /* ---- Write UX: Pencil (Scribble) default / 鍵盤 toggle ---- */
   let inputMode = "pencil"; /* "pencil" | "keyboard" */
 
+  function isWritePadArmed() {
+    /* 寫字 dock 已可見先 focus，避免開機畫面搶 focus */
+    const dock = el.writeDock || document.getElementById("write-dock");
+    if (!dock || dock.classList.contains("hidden")) return false;
+    const app = el.app || document.getElementById("app");
+    if (!app || app.classList.contains("hidden")) return false;
+    try {
+      if (typeof window.getComputedStyle === "function") {
+        const st = window.getComputedStyle(dock);
+        if (st && (st.display === "none" || st.visibility === "hidden")) return false;
+      }
+    } catch (_) {}
+    return true;
+  }
+
+
+  function focusAnswerForScribble() {
+    if (!el.answer || inputMode !== "pencil") return;
+    el.answer.setAttribute("inputmode", "none");
+    try {
+      el.answer.focus({ preventScroll: true });
+    } catch (_) {
+      el.answer.focus();
+    }
+  }
+
+
   function syncInputModeUi() {
     const pencil = inputMode === "pencil";
     if (el.btnModePencil) {
@@ -4045,8 +4084,19 @@
     }
     if (!el.answer) return;
     if (pencil) {
+      /* ytdbc93: Scribble 穩定性靠 focused textarea + inputmode=none（鍵盤唔彈）。
+         唔好每次 sync 都 blur()——會令 Pencil 寫到一半失焦、筆畫唔入紙。
+         只喺由鍵盤模式切走時先 blur 收鍵盤，再 focus 返寫字位。 */
+      const wasTextMode = el.answer.getAttribute("inputmode") !== "none";
+      const hadFocus = document.activeElement === el.answer;
       el.answer.setAttribute("inputmode", "none");
-      el.answer.blur();
+      if (wasTextMode && hadFocus) {
+        el.answer.blur();
+        window.requestAnimationFrame(() => {
+          if (inputMode !== "pencil") return;
+          focusAnswerForScribble();
+        });
+      }
     } else {
       el.answer.setAttribute("inputmode", "text");
     }
@@ -4055,8 +4105,12 @@
   function setInputMode(mode) {
     inputMode = mode === "keyboard" ? "keyboard" : "pencil";
     syncInputModeUi();
-    if (inputMode === "keyboard" && el.answer) {
+    if (!el.answer) return;
+    if (inputMode === "keyboard") {
       el.answer.focus();
+    } else if (isWritePadArmed()) {
+      /* 開戰／切返 Pencil：inputmode=none 之下 focus，等 Scribble 有目標、鍵盤保持收起 */
+      focusAnswerForScribble();
     }
   }
 
@@ -4088,14 +4142,23 @@
     if (el.btnModeKb) {
       el.btnModeKb.addEventListener("click", () => setInputMode("keyboard"));
     }
-    /* Only focus when already in keyboard mode (tap field); Pencil keeps keyboard down */
+    /* Pencil：保持 inputmode=none；允許 focus（Scribble 要有焦點）。唔 preventDefault，以免食筆畫。 */
     if (el.answer) {
       el.answer.addEventListener("focus", () => {
         if (inputMode === "pencil") {
-          /* iOS may still focus for Scribble — keep inputmode=none, do not switch */
+          /* iOS may still focus for Scribble — keep inputmode=none, do not switch, do not blur */
           el.answer.setAttribute("inputmode", "none");
         }
       });
+      el.answer.addEventListener(
+        "pointerdown",
+        () => {
+          if (inputMode === "pencil") {
+            el.answer.setAttribute("inputmode", "none");
+          }
+        },
+        { passive: true }
+      );
     }
   }
 

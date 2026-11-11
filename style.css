@@ -27,6 +27,7 @@ html, body {
   background: var(--cyan-deep);
   color: var(--ink);
   touch-action: manipulation;
+  overscroll-behavior: none;
 }
 .hidden { display: none !important; }
 
@@ -637,6 +638,7 @@ html, body {
   border-top: 4px solid var(--brown);
   z-index: 5;
   overflow: hidden;
+  overscroll-behavior: none;
 }
 #deck-pane,
 #write-pane {
@@ -733,12 +735,16 @@ html, body {
   align-items: stretch;
 }
 #paper-wrap {
+  /* ytdbc93: 清字掣改側欄，唔再叠喺紙面搶 Pencil 筆畫 */
   position: relative;
   min-width: 0;
   min-height: 0;
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px;
+  align-items: stretch;
+  overscroll-behavior: none;
 }
 #answer {
   flex: 1;
@@ -750,7 +756,7 @@ html, body {
   font-weight: 900;
   line-height: 1.45;
   letter-spacing: 0.04em;
-  padding: 14px 58px 14px 14px; /* ytdbc55: room for 清全部／清一字 stack */
+  padding: 14px 16px 14px 14px; /* ytdbc93: 清字掣已移出紙面，唔再留 58px 叠位 */
   border: 3px solid var(--brown);
   border-radius: 12px;
   background:
@@ -758,10 +764,13 @@ html, body {
     #fffef8;
   color: var(--ink);
   box-sizing: border-box;
-  /* Scribble / Pencil: keep field interactive, no pointer trap */
-  touch-action: manipulation;
+  grid-column: 1;
+  grid-row: 1;
+  /* ytdbc93: Scribble／Pencil 要 auto，唔用 none；manipulation 留俾外層防 double-tap zoom */
+  touch-action: auto;
   -webkit-user-select: text;
   user-select: text;
+  overscroll-behavior: contain;
 }
 #answer::placeholder {
   font-size: 16px;
@@ -771,22 +780,27 @@ html, body {
   letter-spacing: 0;
 }
 /* ytdbc55 B: 清全部 + 清一字（實 wire）；原「清筆」→清全部 */
+/* ytdbc93: 改為紙右嘅獨立欄，唔再 position:absolute 盖住筆畫區；兩掣保持可用 */
 .ink-clear-btns {
-  position: absolute;
-  top: 6px;
-  right: 6px;
+  position: static;
   z-index: 2;
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 4px;
   align-items: stretch;
+  justify-content: flex-start;
+  padding-top: 2px;
+  grid-column: 2;
+  grid-row: 1;
+  pointer-events: auto;
 }
 .ink-clear-btns .btn {
-  padding: 3px 7px;
+  padding: 6px 8px;
   font-size: 11px;
   font-weight: 800;
   line-height: 1.2;
   white-space: nowrap;
+  min-height: 32px;
 }
 #btn-clear-ink {
   position: static;
@@ -914,11 +928,45 @@ html, body {
   }
   .pane-title { font-size: 13px; }
   #answer { font-size: 22px; min-height: 72px; }
+  /* ytdbc93: 默書／長紙唔跟短屏縮到 72px — Scribble 要一隻字嘅位；iPad 橫向 Safari chrome 常 <700 */
+  #app.write-long #paper-wrap #answer,
+  #app.stage7-mode #paper-wrap #answer,
+  #app.stage11-mode #paper-wrap #answer,
+  #app.stage12-mode #paper-wrap #answer {
+    font-size: 26px;
+    min-height: 6.25em;
+  }
 }
 @media (min-height: 900px) {
   :root {
     --unit-h: 150px;
     --unit-w: 138px;
+  }
+}
+
+/* ytdbc93: iPad／觸控裝置（Pencil 可能係 fine pointer，故用 any-pointer: coarse）加大默書紙 */
+@media (any-pointer: coarse) {
+  #app.write-long #paper-wrap #answer,
+  #app.stage7-mode #paper-wrap #answer,
+  #app.stage11-mode #paper-wrap #answer,
+  #app.stage12-mode #paper-wrap #answer {
+    min-height: 8em;
+    font-size: 30px;
+  }
+}
+@media (any-pointer: coarse) and (max-height: 700px) {
+  #app.stage7-mode,
+  #app.stage11-mode,
+  #app.stage12-mode {
+    --battle-frac: 40%;
+    --dock-frac: 60%;
+  }
+  #app.write-long #paper-wrap #answer,
+  #app.stage7-mode #paper-wrap #answer,
+  #app.stage11-mode #paper-wrap #answer,
+  #app.stage12-mode #paper-wrap #answer {
+    min-height: 6.25em;
+    font-size: 26px;
   }
 }
 
@@ -2568,12 +2616,21 @@ img.ally-l4-rainbow.has-l4-art,
   width: 100%;
 }
 /* ytdbc85 soft: S11 默書跟 S7 藏欄／寫字 dock */
+/* ytdbc93: 同 S7 全寬寫字紙（原先 display:flex 未改 write-body，右欄空位食紙寬） */
 #app.stage11-mode #deck-pane,
 #app.stage11-mode #sel-preview {
   display: none !important;
 }
 #app.stage11-mode #write-dock {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#app.stage11-mode #write-body {
+  grid-template-columns: 1fr;
+}
+#app.stage11-mode #ink-col {
+  max-width: none;
+  width: 100%;
 }
 
 
@@ -2830,10 +2887,29 @@ img.ally-l4-rainbow.has-l4-art,
 .reorder-reward.hidden { display: none !important; }
 
 /* ytdbc85 soft: S12 默書跟 S7／S11 */
+/* ytdbc93: 同 S7 全寬寫字紙 */
 #app.stage12-mode #deck-pane,
 #app.stage12-mode #sel-preview {
   display: none !important;
 }
 #app.stage12-mode #write-dock {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#app.stage12-mode #write-body {
+  grid-template-columns: 1fr;
+}
+#app.stage12-mode #ink-col {
+  max-width: none;
+  width: 100%;
+}
+
+/* ytdbc93: 默書再聽 — 氣泡／圖卡在戰場 HUD（唔蓋寫字紙）；開 pointer-events 先至撳到 */
+#app.stage7-mode .sentence-bubble,
+#app.stage11-mode .sentence-bubble,
+#app.stage12-mode .sentence-bubble,
+#app.stage7-mode .prompt-card-thumb,
+#app.stage11-mode .prompt-card-thumb,
+#app.stage12-mode .prompt-card-thumb {
+  pointer-events: auto;
 }
