@@ -15,11 +15,11 @@
   },
   "rules": {
     "combat_pick_excludes_gacha": true,
-    "pool_ids": "s5_1–s5_16（本關獨立詞庫，唔混入 id1–54）",
+    "pool_ids": "s5_1–s5_30（本關獨立詞庫，唔混入 id1–54）",
     "style_lock": "JP-04B＋MN-03；卡同角式相關造型；拼音牌要大"
   },
   "source": "School 2026–2027 漢語拼音工作紙（一）§三＋續頁§四§五",
-  "count": 16,
+  "count": 30,
   "words": [
     {
       "id": 1,
@@ -433,6 +433,404 @@
         "hanzi": "優秀",
         "pinyin": "yōu xiù",
         "meaning": "非常好",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 17,
+      "word": "休憩",
+      "pinyin": "xiū qì",
+      "meaning": "休息。",
+      "source": "拼音工作紙新範圍四1（帶點字補韻母聲調：休 xiū）",
+      "options": [
+        "xiū qì",
+        "xiù qì",
+        "xū qì",
+        "xiū jí"
+      ],
+      "unit_pose": "樹蔭躺椅休息；高舉拼音牌 xiū qì",
+      "answer": "xiū qì",
+      "image": "17_休憩.jpg",
+      "ally": "ally_pinyin_17_休憩.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "pool_id": "s5_17",
+      "card_face": {
+        "hanzi": "休憩",
+        "pinyin": "xiū qì",
+        "meaning": "休息。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      },
+      "focus_char": "休",
+      "exam_trap": "韻母 iu、陰平"
+    },
+    {
+      "id": 18,
+      "word": "沉睡",
+      "pinyin": "chén shuì",
+      "meaning": "睡得很沉。",
+      "source": "拼音工作紙新範圍四2（帶點字補韻母聲調：睡 shuì）",
+      "options": [
+        "chén shuì",
+        "chén shuí",
+        "chén shuǐ",
+        "chén suì"
+      ],
+      "unit_pose": "閉眼熟睡、抱枕頭；高舉拼音牌 chén shuì",
+      "answer": "chén shuì",
+      "image": "18_沉睡.jpg",
+      "ally": "ally_pinyin_18_沉睡.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "pool_id": "s5_18",
+      "card_face": {
+        "hanzi": "沉睡",
+        "pinyin": "chén shuì",
+        "meaning": "睡得很沉。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      },
+      "focus_char": "睡",
+      "exam_trap": "韻母 ui、去聲"
+    },
+    {
+      "id": 19,
+      "word": "採用",
+      "pinyin": "cǎi yòng",
+      "meaning": "選取使用。",
+      "source": "拼音工作紙新範圍四3（帶點字補韻母聲調：採 cǎi）",
+      "options": [
+        "cǎi yòng",
+        "cài yòng",
+        "zǎi yòng",
+        "cái yòng"
+      ],
+      "unit_pose": "挑選工具準備採用；高舉拼音牌 cǎi yòng",
+      "answer": "cǎi yòng",
+      "image": "19_採用.jpg",
+      "ally": "ally_pinyin_19_採用.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "pool_id": "s5_19",
+      "card_face": {
+        "hanzi": "採用",
+        "pinyin": "cǎi yòng",
+        "meaning": "選取使用。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      },
+      "focus_char": "採",
+      "exam_trap": "韻母 ai、上聲"
+    },
+    {
+      "id": 20,
+      "word": "抵受",
+      "pinyin": "dǐ shòu",
+      "meaning": "承受、經受（壓力或痛苦）。",
+      "source": "拼音工作紙新範圍四4（帶點字補韻母聲調：受 shòu）",
+      "options": [
+        "dǐ shòu",
+        "dǐ shǒu",
+        "dǐ sòu",
+        "tí shòu"
+      ],
+      "unit_pose": "撐盾抵住壓力；高舉拼音牌 dǐ shòu",
+      "answer": "dǐ shòu",
+      "image": "20_抵受.jpg",
+      "ally": "ally_pinyin_20_抵受.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "pool_id": "s5_20",
+      "card_face": {
+        "hanzi": "抵受",
+        "pinyin": "dǐ shòu",
+        "meaning": "承受、經受（壓力或痛苦）。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      },
+      "focus_char": "受",
+      "exam_trap": "韻母 ou、去聲"
+    },
+    {
+      "id": 21,
+      "word": "遭遇",
+      "pinyin": "zāo yù",
+      "meaning": "碰上、遇到（多指不幸）。",
+      "source": "拼音工作紙新範圍四5（帶點字補韻母聲調：遭 zāo）",
+      "options": [
+        "zāo yù",
+        "zǎo yù",
+        "zào yù",
+        "cāo yù"
+      ],
+      "unit_pose": "路上突然碰上危險；高舉拼音牌 zāo yù",
+      "answer": "zāo yù",
+      "image": "21_遭遇.jpg",
+      "ally": "ally_pinyin_21_遭遇.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "pool_id": "s5_21",
+      "card_face": {
+        "hanzi": "遭遇",
+        "pinyin": "zāo yù",
+        "meaning": "碰上、遇到（多指不幸）。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      },
+      "focus_char": "遭",
+      "exam_trap": "韻母 ao、陰平"
+    },
+    {
+      "id": 22,
+      "word": "無處不在",
+      "pinyin": "wú chù bù zài",
+      "meaning": "到處都有；到處都在。",
+      "source": "拼音工作紙新範圍四6（帶點字補韻母聲調：在 zài）",
+      "options": [
+        "wú chù bù zài",
+        "wú chù bù zǎi",
+        "wú chù bú zài",
+        "wú chù bù zhài"
+      ],
+      "unit_pose": "分身同時出現多處；高舉拼音牌 wú chù bù zài（字要大）",
+      "answer": "wú chù bù zài",
+      "image": "22_無處不在.jpg",
+      "ally": "ally_pinyin_22_無處不在.png",
+      "char_count": 4,
+      "series": "pinyin",
+      "pool_id": "s5_22",
+      "card_face": {
+        "hanzi": "無處不在",
+        "pinyin": "wú chù bù zài",
+        "meaning": "到處都有；到處都在。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      },
+      "focus_char": "在",
+      "exam_trap": "韻母 ai、去聲"
+    },
+    {
+      "id": 23,
+      "word": "佈局",
+      "pinyin": "bù jú",
+      "meaning": "對事物的全面安排、布置。",
+      "source": "拼音工作紙新範圍五1（圈讀音：局 jú／jǔ）",
+      "options": [
+        "bù jú",
+        "bù jǔ",
+        "bù jù",
+        "pù jú"
+      ],
+      "unit_pose": "擺棋盤／地圖佈陣；高舉拼音牌 bù jú",
+      "answer": "bù jú",
+      "image": "23_佈局.jpg",
+      "ally": "ally_pinyin_23_佈局.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "pool_id": "s5_23",
+      "card_face": {
+        "hanzi": "佈局",
+        "pinyin": "bù jú",
+        "meaning": "對事物的全面安排、布置。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      },
+      "focus_char": "局",
+      "exam_trap": "jú 唔係 jǔ"
+    },
+    {
+      "id": 24,
+      "word": "拯救",
+      "pinyin": "zhěng jiù",
+      "meaning": "救助、使脫離危險。",
+      "source": "拼音工作紙新範圍五2（圈讀音：救 jiù／jiòu）",
+      "options": [
+        "zhěng jiù",
+        "zhěng jiòu",
+        "zhěng jiǔ",
+        "zhěng jiū"
+      ],
+      "unit_pose": "伸出手救人；高舉拼音牌 zhěng jiù",
+      "answer": "zhěng jiù",
+      "image": "24_拯救.jpg",
+      "ally": "ally_pinyin_24_拯救.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "pool_id": "s5_24",
+      "card_face": {
+        "hanzi": "拯救",
+        "pinyin": "zhěng jiù",
+        "meaning": "救助、使脫離危險。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      },
+      "focus_char": "救",
+      "exam_trap": "jiù 唔係 jiòu（跟工作紙錯項）"
+    },
+    {
+      "id": 25,
+      "word": "宏揚",
+      "pinyin": "hóng yáng",
+      "meaning": "大力宣揚；使廣泛傳開。",
+      "source": "拼音工作紙新範圍五3（圈讀音：揚 yáng／yíáng）；用字跟工作紙「宏揚」，唔改「弘揚」。全新詞，現有詞庫無。",
+      "options": [
+        "hóng yáng",
+        "hóng yíáng",
+        "hóng yǎng",
+        "hóng yàng"
+      ],
+      "unit_pose": "舉手宣揚、舉旗；高舉拼音牌 hóng yáng",
+      "answer": "hóng yáng",
+      "image": "25_宏揚.jpg",
+      "ally": "ally_pinyin_25_宏揚.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "pool_id": "s5_25",
+      "card_face": {
+        "hanzi": "宏揚",
+        "pinyin": "hóng yáng",
+        "meaning": "大力宣揚；使廣泛傳開。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      },
+      "focus_char": "揚",
+      "exam_trap": "yáng 唔係 yíáng（跟工作紙錯項）"
+    },
+    {
+      "id": 26,
+      "word": "仇怨",
+      "pinyin": "chóu yuàn",
+      "meaning": "仇恨和怨恨。",
+      "source": "拼音工作紙新範圍五4（圈讀音：怨 yuàn／yüàn）",
+      "options": [
+        "chóu yuàn",
+        "chóu yüàn",
+        "chóu yuán",
+        "chóu yuǎn"
+      ],
+      "unit_pose": "怒目相對怨恨樣；高舉拼音牌 chóu yuàn",
+      "answer": "chóu yuàn",
+      "image": "26_仇怨.jpg",
+      "ally": "ally_pinyin_26_仇怨.png",
+      "char_count": 2,
+      "series": "pinyin",
+      "pool_id": "s5_26",
+      "card_face": {
+        "hanzi": "仇怨",
+        "pinyin": "chóu yuàn",
+        "meaning": "仇恨和怨恨。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      },
+      "focus_char": "怨",
+      "exam_trap": "yuàn 唔係 yüàn（跟工作紙錯項）"
+    },
+    {
+      "id": 27,
+      "word": "莫名其妙",
+      "pinyin": "mò míng qí miào",
+      "meaning": "事情很奇怪，使人不明白。",
+      "source": "拼音工作紙新範圍六1（看拼音寫詞語）",
+      "options": [
+        "mò míng qí miào",
+        "mò míng qí miáo",
+        "mò mín qí miào",
+        "mò míng jí miào"
+      ],
+      "unit_pose": "摸頭疑惑不懂；高舉拼音牌 mò míng qí miào（字要大）",
+      "answer": "mò míng qí miào",
+      "image": "27_莫名其妙.jpg",
+      "ally": "ally_pinyin_27_莫名其妙.png",
+      "char_count": 4,
+      "series": "pinyin",
+      "pool_id": "s5_27",
+      "card_face": {
+        "hanzi": "莫名其妙",
+        "pinyin": "mò míng qí miào",
+        "meaning": "事情很奇怪，使人不明白。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 28,
+      "word": "尋幽探祕",
+      "pinyin": "xún yōu tàn mì",
+      "meaning": "尋找幽靜之處、探索奧秘。",
+      "source": "拼音工作紙新範圍六2（看拼音寫詞語）；用字跟工作紙「祕」，唔改「秘」。",
+      "options": [
+        "xún yōu tàn mì",
+        "xún yōu tǎn mì",
+        "xún yōu tàn mǐ",
+        "xún yōu tàn bì"
+      ],
+      "unit_pose": "提燈探山洞／密林；高舉拼音牌 xún yōu tàn mì（字要大）",
+      "answer": "xún yōu tàn mì",
+      "image": "28_尋幽探祕.jpg",
+      "ally": "ally_pinyin_28_尋幽探祕.png",
+      "char_count": 4,
+      "series": "pinyin",
+      "pool_id": "s5_28",
+      "card_face": {
+        "hanzi": "尋幽探祕",
+        "pinyin": "xún yōu tàn mì",
+        "meaning": "尋找幽靜之處、探索奧秘。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 29,
+      "word": "錦上添花",
+      "pinyin": "jǐn shàng tiān huā",
+      "meaning": "好上加好；使更完美。",
+      "source": "拼音工作紙新範圍六3（看拼音寫詞語）",
+      "options": [
+        "jǐn shàng tiān huā",
+        "jǐn shàng tián huā",
+        "jīn shàng tiān huā",
+        "jǐn shàng tiān huá"
+      ],
+      "unit_pose": "在錦緞上添一朵花；高舉拼音牌 jǐn shàng tiān huā（字要大）",
+      "answer": "jǐn shàng tiān huā",
+      "image": "29_錦上添花.jpg",
+      "ally": "ally_pinyin_29_錦上添花.png",
+      "char_count": 4,
+      "series": "pinyin",
+      "pool_id": "s5_29",
+      "card_face": {
+        "hanzi": "錦上添花",
+        "pinyin": "jǐn shàng tiān huā",
+        "meaning": "好上加好；使更完美。",
+        "show_pinyin_on_card": true,
+        "logo": "pinyin"
+      }
+    },
+    {
+      "id": 30,
+      "word": "前因後果",
+      "pinyin": "qián yīn hòu guǒ",
+      "meaning": "事情的起因和結果；來龍去脈。",
+      "source": "拼音工作紙新範圍六4（看拼音寫詞語）",
+      "options": [
+        "qián yīn hòu guǒ",
+        "qián yīn hòu guō",
+        "qián yīng hòu guǒ",
+        "qián yīn hòu guò"
+      ],
+      "unit_pose": "展開因果時間線；高舉拼音牌 qián yīn hòu guǒ（字要大）",
+      "answer": "qián yīn hòu guǒ",
+      "image": "30_前因後果.jpg",
+      "ally": "ally_pinyin_30_前因後果.png",
+      "char_count": 4,
+      "series": "pinyin",
+      "pool_id": "s5_30",
+      "card_face": {
+        "hanzi": "前因後果",
+        "pinyin": "qián yīn hòu guǒ",
+        "meaning": "事情的起因和結果；來龍去脈。",
         "show_pinyin_on_card": true,
         "logo": "pinyin"
       }

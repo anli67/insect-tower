@@ -1,4 +1,5 @@
-/* 蟲蟲 詞語塔防 · dual-tower · dock LAYOUT · ?v=ytdbc91
+/* 蟲蟲 詞語塔防 · dual-tower · dock LAYOUT · ?v=ytdbc92
+   ytdbc92: S5 拼音 Wave 2 入池 id 17–30（14 卡＋14 角式）；底 soft ytdbc91；唔改 S7 默書；唔 promote
    ytdbc91: S7 默書開題讀普通話（Google zh-CN）＋audio unlock harden；底 soft ytdbc90；唔 promote
    ytdbc90: Mandarin via Google zh-CN audio（繁→簡）主路徑；Web Speech whitelist fallback；底 soft ytdbc89；唔 promote
    ytdbc89: force Mandarin TTS — whitelist only（拒美玲假 zh-CN）；底 soft ytdbc88；唔 promote
@@ -159,7 +160,7 @@
   const MID_BOSS_UNIT_W = Math.round(BOSS_UNIT_W * 0.72); /* ~158 */
   const BOSS_TOWER_DMG = 22; /* if boss reaches player tower */
   const BOSS_COMBO_CHIP = 40; /* unused after ult rewrite; keep for safety */
-  const V = "ytdbc91";
+  const V = "ytdbc92";
   /* ytdbc91: S7 默書開題讀普通話（Google zh-CN）＋unlock harden；底 ytdbc90；唔 promote */
   /* ytdbc90: Google zh-CN audio TTS primary；Web Speech whitelist fallback */
   /* ytdbc87 soft: NIT A–D 默書圖卡＋圖庫 lifa／fanxing＋還原 cards／towers；底 ytdbc86；唔 promote */
