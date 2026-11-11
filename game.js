@@ -1,4 +1,5 @@
-/* 蟲蟲 詞語塔防 · dual-tower · dock LAYOUT · ?v=ytdbc93
+/* 蟲蟲 詞語塔防 · dual-tower · dock LAYOUT · ?v=ytdbc94
+   ytdbc94: GitHub 圖庫／國語 TTS 播放路徑（Audio referrerPolicy=no-referrer 必須喺 src 之前；成功只認 playing，play() fulfil 唔當成功；404／error 要 reject 等 fallback）；底 soft ytdbc93；唔改玩法／詞庫／白名單／寫字 UX；唔 promote
    ytdbc93: iPad Pencil／Scribble 寫字手感（S7／S11／S12 紙加大、write-long、唔亂 blur）；底 soft ytdbc92；唔改玩法／詞庫；唔 promote
    ytdbc92: S5 拼音 Wave 2 入池 id 17–30（14 卡＋14 角式）；底 soft ytdbc91；唔改 S7 默書；唔 promote
    ytdbc91: S7 默書開題讀普通話（Google zh-CN）＋audio unlock harden；底 soft ytdbc90；唔 promote
@@ -161,7 +162,8 @@
   const MID_BOSS_UNIT_W = Math.round(BOSS_UNIT_W * 0.72); /* ~158 */
   const BOSS_TOWER_DMG = 22; /* if boss reaches player tower */
   const BOSS_COMBO_CHIP = 40; /* unused after ult rewrite; keep for safety */
-  const V = "ytdbc93";
+  const V = "ytdbc94";
+  /* ytdbc94: Google TTS referrerPolicy=no-referrer＋playing 先當成功；底 ytdbc93；唔改玩法／詞庫／白名單／寫字 UX；唔 promote */
   /* ytdbc93: iPad Pencil／Scribble 寫字手感；底 ytdbc92；唔改玩法／詞庫／拼音；唔 promote */
   /* ytdbc91: S7 默書開題讀普通話（Google zh-CN）＋unlock harden；底 ytdbc90；唔 promote */
   /* ytdbc90: Google zh-CN audio TTS primary；Web Speech whitelist fallback */
@@ -1530,6 +1532,7 @@
   let mandarinGestureUnlockWired = false;
   let mandarinAudioEl = null;
   let mandarinAudioToken = 0;
+  let mandarinAudioTimer = 0;
 
   /* Inline t2s map（OpenCC t2s from vocab／cards／simpFold）；assets/tts_t2s_map_v0.json 同步 */
   const TTS_T2S_MAP = {"佈":"布","廟":"庙","殺":"杀","進":"进","環":"环","種":"种","實":"实","約":"约","隱":"隐","類":"类","勝":"胜","礙":"碍","嘗":"尝","刪":"删","奮":"奋","輸":"输","轍":"辙","馬":"马","艱":"艰","墜":"坠","寶":"宝","購":"购","組":"组","預":"预","騙":"骗","邊":"边","檔":"档","質":"质","傷":"伤","規":"规","瀏":"浏","術":"术","辦":"办","籠":"笼","攤":"摊","複":"复","樸":"朴","齊":"齐","倫":"伦","館":"馆","寧":"宁","徵":"征","險":"险","圓":"圆","紛":"纷","題":"题","軍":"军","勢":"势","聞":"闻","決":"决","調":"调","達":"达","項":"项","動":"动","頭":"头","籃":"篮","壯":"壮","費":"费","個":"个","細":"细","餘":"余","厲":"厉","務":"务","詐":"诈","懸":"悬","綻":"绽","懇":"恳","餅":"饼","庫":"库","頁":"页","錄":"录","邏":"逻","閘":"闸","毀":"毁","遊":"游","鳴":"鸣","須":"须","濟":"济","棗":"枣","煩":"烦","鏡":"镜","隻":"只","記":"记","訊":"讯","奧":"奥","藍":"蓝","鍵":"键","闖":"闯","過":"过","爛":"烂","雛":"雏","統":"统","嗰":"𠮶","紅":"红","採":"采","廈":"厦","夠":"够","跡":"迹","晉":"晋","輯":"辑","遞":"递","謂":"谓","樓":"楼","學":"学","醫":"医","聽":"听","煥":"焕","襯":"衬","帳":"帐","準":"准","銳":"锐","讀":"读","燈":"灯","矯":"矫","論":"论","舉":"举","篩":"筛","癩":"癞","睜":"睁","螢":"萤","專":"专","凍":"冻","療":"疗","嬌":"娇","試":"试","糧":"粮","賣":"卖","訓":"训","飛":"飞","災":"灾","橫":"横","復":"复","離":"离","纏":"缠","網":"网","純":"纯","習":"习","鄉":"乡","腳":"脚","畢":"毕","願":"愿","計":"计","擊":"击","嚴":"严","還":"还","資":"资","顯":"显","彎":"弯","憫":"悯","觸":"触","緒":"绪","戰":"战","條":"条","嘆":"叹","價":"价","萬":"万","處":"处","換":"换","詩":"诗","鮮":"鲜","開":"开","涼":"凉","釐":"厘","係":"系","劇":"剧","敵":"敌","職":"职","嚇":"吓","別":"别","勁":"劲","屬":"属","捲":"卷","獎":"奖","斷":"断","貿":"贸","維":"维","翹":"翘","啟":"启","貓":"猫","陰":"阴","員":"员","與":"与","偵":"侦","麗":"丽","長":"长","飄":"飘","氣":"气","發":"发","圇":"囵","隊":"队","脫":"脱","揀":"拣","業":"业","膽":"胆","簽":"签","曆":"历","麼":"么","擔":"担","線":"线","髮":"发","謹":"谨","轉":"转","話":"话","積":"积","壞":"坏","於":"于","叢":"丛","語":"语","鵬":"鹏","內":"内","當":"当","盤":"盘","剛":"刚","覺":"觉","廂":"厢","議":"议","卻":"却","鄰":"邻","認":"认","幾":"几","戲":"戏","羣":"群","歡":"欢","堅":"坚","遠":"远","禍":"祸","織":"织","尋":"寻","穩":"稳","惡":"恶","詞":"词","綁":"绑","縷":"缕","間":"间","闇":"暗","樑":"梁","廣":"广","陽":"阳","時":"时","劃":"划","漸":"渐","訂":"订","該":"该","囂":"嚣","覽":"览","區":"区","課":"课","亂":"乱","雖":"虽","艙":"舱","親":"亲","階":"阶","緊":"紧","陣":"阵","龜":"龟","鳥":"鸟","見":"见","驗":"验","參":"参","蹟":"迹","賽":"赛","傘":"伞","祕":"秘","販":"贩","棄":"弃","懲":"惩","丟":"丢","飲":"饮","荊":"荆","暫":"暂","趙":"赵","補":"补","擺":"摆","樹":"树","鄭":"郑","團":"团","紹":"绍","爺":"爷","視":"视","諧":"谐","魚":"鱼","橋":"桥","貴":"贵","評":"评","無":"无","畫":"画","經":"经","號":"号","廳":"厅","訝":"讶","聲":"声","裝":"装","識":"识","虛":"虚","賞":"赏","機":"机","遷":"迁","滿":"满","層":"层","徑":"径","園":"园","慮":"虑","異":"异","廢":"废","場":"场","繩":"绳","淨":"净","樂":"乐","領":"领","暉":"晖","創":"创","併":"并","夢":"梦","懷":"怀","態":"态","來":"来","爭":"争","辯":"辩","誤":"误","縮":"缩","華":"华","責":"责","羅":"罗","膠":"胶","筆":"笔","續":"续","趕":"赶","會":"会","莊":"庄","寫":"写","風":"风","窪":"洼","聳":"耸","負":"负","稱":"称","兒":"儿","燒":"烧","簾":"帘","從":"从","頸":"颈","龍":"龙","選":"选","颱":"台","鷹":"鹰","糉":"粽","擴":"扩","後":"后","憶":"忆","藥":"药","簡":"简","這":"这","鴿":"鸽","脈":"脉","練":"练","讚":"赞","燙":"烫","順":"顺","冊":"册","誠":"诚","憂":"忧","講":"讲","車":"车","則":"则","響":"响","終":"终","眾":"众","檢":"检","敗":"败","產":"产","綱":"纲","歸":"归","錦":"锦","幫":"帮","閱":"阅","農":"农","盡":"尽","貼":"贴","蓋":"盖","興":"兴","誼":"谊","測":"测","獨":"独","帶":"带","靜":"静","紙":"纸","週":"周","疊":"叠","愛":"爱","許":"许","島":"岛","難":"难","標":"标","漢":"汉","獻":"献","餓":"饿","優":"优","東":"东","舊":"旧","屢":"屡","圍":"围","幹":"干","財":"财","沒":"没","體":"体","輔":"辅","績":"绩","極":"极","繞":"绕","撳":"揿","變":"变","鴉":"鸦","媽":"妈","對":"对","兩":"两","減":"减","報":"报","顛":"颠","籌":"筹","飽":"饱","張":"张","驚":"惊","惱":"恼","為":"为","義":"义","請":"请","綠":"绿","協":"协","鍬":"锹","寬":"宽","數":"数","編":"编","絕":"绝","將":"将","歷":"历","搖":"摇","嘩":"哗","級":"级","構":"构","裏":"里","確":"确","單":"单","強":"强","載":"载","霧":"雾","們":"们","闊":"阔","詭":"诡","濃":"浓","戶":"户","說":"说","買":"买","彿":"佛","並":"并","諾":"诺","擁":"拥","書":"书","謀":"谋","獲":"获","鬥":"斗","遺":"遗","禮":"礼","傳":"传","臉":"脸","壓":"压","欄":"栏","門":"门","師":"师","結":"结","納":"纳","蕩":"荡","紀":"纪","鉤":"钩","應":"应","導":"导","罰":"罚","頂":"顶","給":"给","鉗":"钳","粵":"粤","雙":"双","塊":"块","湧":"涌","樣":"样","顧":"顾","國":"国","溫":"温","談":"谈","頻":"频","現":"现","證":"证","節":"节","隨":"随","烏":"乌","設":"设","適":"适","絞":"绞","熱":"热","鐵":"铁","籮":"箩","觀":"观","連":"连","靈":"灵","點":"点","鎖":"锁","輕":"轻","貢":"贡","嚮":"向","繼":"继","錯":"错","問":"问","鐘":"钟","電":"电","蟲":"虫","雲":"云","腦":"脑","掛":"挂","絲":"丝","絡":"络","擾":"扰","牆":"墙","臨":"临","圖":"图","範":"范","運":"运","餵":"喂","憐":"怜","鬆":"松","築":"筑","鑑":"鉴","據":"据","劍":"剑","際":"际","諗":"谂","總":"总","肅":"肃","關":"关","瘡":"疮","討":"讨","護":"护"};
@@ -1633,11 +1636,19 @@
 
   function stopMandarinAudio() {
     try {
+      if (mandarinAudioTimer) {
+        try {
+          clearTimeout(mandarinAudioTimer);
+        } catch (_) {}
+        mandarinAudioTimer = 0;
+      }
       if (mandarinAudioEl) {
         try {
           mandarinAudioEl.onended = null;
           mandarinAudioEl.onerror = null;
           mandarinAudioEl.onpause = null;
+          mandarinAudioEl.onplaying = null;
+          mandarinAudioEl.oncanplay = null;
         } catch (_) {}
         try {
           mandarinAudioEl.pause();
@@ -1660,7 +1671,9 @@
 
   /**
    * Primary Mandarin path: Google zh-CN mp3（簡體字串）.
-   * Resolves true on play start；rejects on play()/network fail → caller may Web Speech fallback.
+   * ytdbc94: resolves true only after audio actually starts（playing）；
+   * rejects on 404／error／timeout／play() reject → caller may Web Speech fallback.
+   * Do NOT treat a.play() fulfilment as success（may resolve before onerror）.
    */
   function playMandarinAudio(text) {
     const simp = toSimplifiedForTts(text);
@@ -1673,31 +1686,50 @@
     } catch (_) {}
     return new Promise((resolve, reject) => {
       let settled = false;
+      const clearTimer = () => {
+        if (mandarinAudioTimer) {
+          try {
+            clearTimeout(mandarinAudioTimer);
+          } catch (_) {}
+          mandarinAudioTimer = 0;
+        }
+      };
       const doneOk = () => {
         if (settled || token !== mandarinAudioToken) return;
         settled = true;
+        clearTimer();
         resolve(true);
       };
       const doneFail = (err) => {
         if (settled || token !== mandarinAudioToken) return;
         settled = true;
+        clearTimer();
         reject(err || new Error("audio fail"));
       };
       try {
         const a = new Audio();
         mandarinAudioEl = a;
         a.preload = "auto";
-        /* no crossOrigin — Google TTS 無 ACAO；純播 mp3 唔需要 */
+        /* no crossOrigin — Google TTS 無 ACAO；純播 mp3 唔需要；唔好改 fetch()+blob */
+        a.referrerPolicy = "no-referrer"; /* ytdbc94: 必須喺 a.src 之前；唔設 document 全域 referrer */
         a.onended = () => {
           if (token === mandarinAudioToken) mandarinAudioEl = null;
         };
         a.onerror = () => doneFail(new Error("audio error"));
+        a.onplaying = () => doneOk();
+        a.oncanplay = () => {
+          /* backup only if already not paused and duration known — avoid canplay then autoplay-reject */
+          try {
+            if (!a.paused && isFinite(a.duration) && a.duration > 0) doneOk();
+          } catch (_) {}
+        };
+        mandarinAudioTimer = setTimeout(() => doneFail(new Error("audio timeout")), 8000);
         a.src = url;
         const p = a.play();
         if (p && typeof p.then === "function") {
-          p.then(() => doneOk()).catch((e) => doneFail(e));
-        } else {
-          doneOk();
+          p.then(() => {
+            /* ytdbc94: play() fulfil 唔當成功；等 playing（或合資格 canplay） */
+          }).catch((e) => doneFail(e));
         }
       } catch (e) {
         doneFail(e);
